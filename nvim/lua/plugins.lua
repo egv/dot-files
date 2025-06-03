@@ -16,14 +16,16 @@ return require('packer').startup(function(use)
   use ('theprimeagen/harpoon')
   use ('mbbill/undotree') 
   use ('tpope/vim-fugitive') 
-
+  use ('preservim/nerdtree')
   use {
-    'greggh/claude-code.nvim',
+    "coder/claudecode.nvim",
     requires = {
-      'nvim-lua/plenary.nvim', -- Required for git operations
+      "folke/snacks.nvim", -- Optional dependency
     },
     config = function()
-      require('claude-code').setup()
+      require("claudecode").setup({
+        -- Optional configuration
+      })
     end
   }
 end)
