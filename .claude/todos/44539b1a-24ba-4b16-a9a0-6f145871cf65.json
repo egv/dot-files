@@ -1,0 +1,62 @@
+[
+  {
+    "id": "1",
+    "content": "Set up project structure and pyproject.toml",
+    "status": "completed",
+    "priority": "high"
+  },
+  {
+    "id": "2",
+    "content": "Write test for webhook activation phrase detection",
+    "status": "completed",
+    "priority": "high"
+  },
+  {
+    "id": "3",
+    "content": "Implement activation phrase detection",
+    "status": "completed",
+    "priority": "high"
+  },
+  {
+    "id": "8",
+    "content": "Write test for FastAPI webhook endpoint",
+    "status": "completed",
+    "priority": "high"
+  },
+  {
+    "id": "9",
+    "content": "Implement FastAPI webhook endpoint",
+    "status": "completed",
+    "priority": "high"
+  },
+  {
+    "id": "10",
+    "content": "Add Celery integration for task processing",
+    "status": "completed",
+    "priority": "high"
+  },
+  {
+    "id": "4",
+    "content": "Write test for task extraction using AI agent",
+    "status": "completed",
+    "priority": "medium"
+  },
+  {
+    "id": "5",
+    "content": "Implement task extraction with OpenAI agents",
+    "status": "completed",
+    "priority": "medium"
+  },
+  {
+    "id": "6",
+    "content": "Write test for TickTick integration",
+    "status": "completed",
+    "priority": "medium"
+  },
+  {
+    "id": "7",
+    "content": "Implement TickTick integration using MCP",
+    "status": "completed",
+    "priority": "medium"
+  }
+]

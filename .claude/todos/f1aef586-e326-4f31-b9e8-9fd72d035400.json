@@ -1,0 +1,38 @@
+[
+  {
+    "content": "Analyze the new agent implementations to understand their structure",
+    "status": "completed",
+    "priority": "high",
+    "id": "1"
+  },
+  {
+    "content": "Update process_city() function in __main__.py to use new agent classes",
+    "status": "completed",
+    "priority": "high",
+    "id": "2"
+  },
+  {
+    "content": "Remove legacy imports from agents/__init__.py",
+    "status": "completed",
+    "priority": "medium",
+    "id": "3"
+  },
+  {
+    "content": "Delete legacy.py file",
+    "status": "in_progress",
+    "priority": "medium",
+    "id": "4"
+  },
+  {
+    "content": "Test the changes to ensure everything works",
+    "status": "pending",
+    "priority": "high",
+    "id": "5"
+  },
+  {
+    "content": "Refactor agents to accept dynamic inputs instead of constructor parameters",
+    "status": "pending",
+    "priority": "high",
+    "id": "6"
+  }
+]

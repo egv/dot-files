@@ -1,0 +1,32 @@
+[
+  {
+    "content": "Set up project structure (simple file structure)",
+    "status": "completed",
+    "priority": "high",
+    "id": "1"
+  },
+  {
+    "content": "Implement MCP server with TickTick integration",
+    "status": "completed",
+    "priority": "high",
+    "id": "2"
+  },
+  {
+    "content": "Add configuration for environment variables",
+    "status": "completed",
+    "priority": "medium",
+    "id": "3"
+  },
+  {
+    "content": "Create Dockerfile",
+    "status": "completed",
+    "priority": "medium",
+    "id": "4"
+  },
+  {
+    "content": "Add GitHub Actions workflow",
+    "status": "completed",
+    "priority": "medium",
+    "id": "5"
+  }
+]

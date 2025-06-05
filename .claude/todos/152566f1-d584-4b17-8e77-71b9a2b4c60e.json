@@ -1,0 +1,38 @@
+[
+  {
+    "content": "Create a file for EventFinder agent",
+    "status": "completed",
+    "priority": "high",
+    "id": "1"
+  },
+  {
+    "content": "Create a file for EventClassifier agent",
+    "status": "completed",
+    "priority": "high",
+    "id": "2"
+  },
+  {
+    "content": "Create a file for LanguageSelector agent",
+    "status": "completed",
+    "priority": "high",
+    "id": "3"
+  },
+  {
+    "content": "Create a file for TextWriter agent",
+    "status": "completed",
+    "priority": "high",
+    "id": "4"
+  },
+  {
+    "content": "Create a file for Orchestrator agent",
+    "status": "completed",
+    "priority": "high",
+    "id": "5"
+  },
+  {
+    "content": "Update __main__.py to import agents from new files",
+    "status": "completed",
+    "priority": "high",
+    "id": "6"
+  }
+]
