@@ -1,0 +1,50 @@
+[
+  {
+    "content": "Create HTTP client utility for making requests to Dora HTTP server",
+    "status": "completed",
+    "priority": "high",
+    "id": "1"
+  },
+  {
+    "content": "Rewrite message handler to use HTTP interface instead of direct processing",
+    "status": "completed",
+    "priority": "high",
+    "id": "2"
+  },
+  {
+    "content": "Update bot configuration to include HTTP server URL",
+    "status": "completed",
+    "priority": "medium",
+    "id": "3"
+  },
+  {
+    "content": "Handle HTTP response formatting for Telegram",
+    "status": "completed",
+    "priority": "medium",
+    "id": "4"
+  },
+  {
+    "content": "Update run_bot.py to remove unnecessary imports",
+    "status": "completed",
+    "priority": "low",
+    "id": "5"
+  },
+  {
+    "content": "Test the new HTTP-based bot implementation",
+    "status": "completed",
+    "priority": "high",
+    "id": "6"
+  },
+  {
+    "content": "Enhance HTTP server to return full structured event data",
+    "status": "completed",
+    "priority": "high",
+    "id": "7"
+  },
+  {
+    "content": "Add aiohttp dependency to pyproject.toml",
+    "status": "completed",
+    "priority": "medium",
+    "id": "8"
+  }
+]

@@ -1,0 +1,2250 @@
+{
+  "numStartups": 92,
+  "autoUpdaterStatus": "enabled",
+  "customApiKeyResponses": {
+    "approved": [
+      "cMTL7C2i1bA-xT_7JQAA"
+    ],
+    "rejected": []
+  },
+  "tipsHistory": {
+    "new-user-warmup": 9,
+    "theme-command": 88,
+    "prompt-queue": 18,
+    "todo-list": 90,
+    "enter-to-steer-in-relatime": 86,
+    "ide-hotkey": 92,
+    "git-worktrees": 85,
+    "shift-enter": 77
+  },
+  "memoryUsageCount": 8,
+  "promptQueueUseCount": 16,
+  "userID": "82dcc95dcade5333136e51c3e9e1a5c4908c5095a860eedbce48bd0aeff7f48c",
+  "isQualifiedForDataSharing": false,
+  "hasCompletedOnboarding": true,
+  "lastOnboardingVersion": "0.2.97",
+  "projects": {
+    "/Users/egv/dev/cambrian/reflection-cursor": {
+      "allowedTools": [],
+      "history": [
+        {
+          "display": "lets retry docker variant",
+          "pastedContents": {}
+        },
+        {
+          "display": "ok, assuming I have installed rust, solana and avm can you please run tests for the onchain code?",
+          "pastedContents": {}
+        },
+        {
+          "display": "! cargo install --git https://github.com/coral-xyz/anchor avm --locked --force",
+          "pastedContents": {}
+        },
+        {
+          "display": "!cargo",
+          "pastedContents": {}
+        },
+        {
+          "display": "what shoud be done do deploy this project locally?",
+          "pastedContents": {}
+        },
+        {
+          "display": "/cost ",
+          "pastedContents": {}
+        },
+        {
+          "display": "/status ",
+          "pastedContents": {}
+        },
+        {
+          "display": ".",
+          "pastedContents": {}
+        },
+        {
+          "display": "are those parts fully implemented?",
+          "pastedContents": {}
+        },
+        {
+          "display": "are those part fully implemented?",
+          "pastedContents": {}
+        },
+        {
+          "display": "what does this project do?",
+          "pastedContents": {}
+        },
+        {
+          "display": "/init ",
+          "pastedContents": {}
+        }
+      ],
+      "dontCrawlDirectory": false,
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "enableAllProjectMcpServers": false,
+      "hasTrustDialogAccepted": true,
+      "ignorePatterns": [],
+      "projectOnboardingSeenCount": 0,
+      "exampleFiles": [
+        "lib.rs",
+        "reflectionClient.ts",
+        "WalletContextProvider.tsx",
+        "dex.rs",
+        "price-oracle.rs"
+      ],
+      "exampleFilesGeneratedAt": 1746733902885,
+      "hasCompletedProjectOnboarding": true,
+      "lastCost": 0.5966064500000001,
+      "lastAPIDuration": 122412,
+      "lastDuration": 4012397,
+      "lastLinesAdded": 0,
+      "lastLinesRemoved": 0,
+      "lastSessionId": "419ce5fb-92b5-4d8b-a0d6-69b946c640ab"
+    },
+    "/Users/egv/dev/zinochka": {
+      "allowedTools": [],
+      "history": [
+        {
+          "display": "i get \"Attaching to zinochka-api, zinochka-rabbitmq, zinochka-ticktick-mcp, zinochka-traefik, zinochka-worker\nGracefully stopping... (press Ctrl+C again to force)\nError response from daemon: failed to create task for container: failed to create shim task: OCI runtime create failed: runc create failed: unable to start container process: error during container init: exec: \"celery\": executable file not found in $PATH: unknown\" when doing \"docker compose up\"",
+          "pastedText": null
+        },
+        {
+          "display": "commit and push",
+          "pastedText": null
+        },
+        {
+          "display": "!git status",
+          "pastedText": null
+        },
+        {
+          "display": "commit amd push",
+          "pastedText": null
+        },
+        {
+          "display": "neverming, apply those changes",
+          "pastedText": null
+        },
+        {
+          "display": "apply this change bu tdo not forget to modify @.env.example so it will be in sync with the real @.env file. Also update @README.md and @PROJECT.md if needed  ",
+          "pastedText": null
+        },
+        {
+          "display": "add required vars like $EMAIL and $WEBHOOK_DOMAIN to .env file. Also make app in docker-compose.yml to use open ai key from mounted .env file",
+          "pastedText": null
+        },
+        {
+          "display": "only webhook should be available by https",
+          "pastedText": null
+        },
+        {
+          "display": "do we have any api exposed except for webhook?",
+          "pastedText": null
+        },
+        {
+          "display": "I want to traefik for this project",
+          "pastedText": null
+        },
+        {
+          "display": "i have let's encrypt certs fro my domain. Given that, what will be my preferred option?",
+          "pastedText": null
+        },
+        {
+          "display": "I need webhook to be available as https. What are my options?",
+          "pastedText": null
+        },
+        {
+          "display": "add console logging of full json in webhook call",
+          "pastedText": null
+        },
+        {
+          "display": "commit and push all the shanges",
+          "pastedText": null
+        },
+        {
+          "display": "use `uv` for gods sake. `uv add ruff --dev` will add `ruff` to dependencies, `uv sync` will install and then `uv run ruff` will work. Come on, gather up!",
+          "pastedText": null
+        },
+        {
+          "display": "you really should use `uv run ruff` for this. Please check if `ruff` is in dev dependencies in @pyproject.toml before running it and do not forget to `uv sync`!",
+          "pastedText": null
+        },
+        {
+          "display": "why are you keep trying to do `uv pip install`? Does not `uv sync` essentialy do the same thing?",
+          "pastedText": null
+        },
+        {
+          "display": "hey, nevermind, I thought you are going to use plain pip, without uv. But havent I tol you to use @pyproject.toml for dependency management so I can do `uv sync` later without all that `uv pip` hassle?",
+          "pastedText": null
+        },
+        {
+          "display": "well, runnes can do run_sync AFAIR, if you still want to make it all sync. My question was if really need to do task sync, can't celery run async code?",
+          "pastedText": null
+        },
+        {
+          "display": "cant celery run async tasks? why do we need to use loop here?",
+          "pastedText": null
+        },
+        {
+          "display": "now add to @zinochka/services/orchestration.py mcp server usage through sse like it is shown in https://github.com/openai/openai-agents-python/blob/main/examples/mcp/sse_example/main.py ",
+          "pastedText": null
+        },
+        {
+          "display": "commit and push changes",
+          "pastedText": null
+        },
+        {
+          "display": "let's add mcp server. Use one at `https://github.com/egv/ticktick-mcp`. README.md there contains detailed instructions on how to add it docker-compose.yml. I already have all the required environment variables in @.env file",
+          "pastedText": null
+        },
+        ".",
+        {
+          "display": "please create .dockerignore file if there is not any. Populate it as you see fit, but pay attentiong that no .git or .env files should get into the container",
+          "pastedText": null
+        },
+        {
+          "display": "now commit all changes with the descriptive commit message and push all commit to remote",
+          "pastedText": null
+        },
+        {
+          "display": "#use `gh` tool for all github interactions",
+          "pastedText": null
+        },
+        {
+          "display": "now please generate proper .gitignore file",
+          "pastedText": null
+        },
+        {
+          "display": "you ahve added it as a html to the mardown file. You sure it will work?",
+          "pastedText": null
+        },
+        {
+          "display": "there is a file @zinochka.png. Add this image on top of the @README.md. It contains this project's mascot. ",
+          "pastedText": null
+        },
+        {
+          "display": "ok, look into @README.md and @PROJECT.md and @CLAUDE.md and see if our actual implementation differs from the described one. If so, please update those files to match actual implementation",
+          "pastedText": null
+        },
+        {
+          "display": "in @start.sh add check that .env is actually different from .env.example",
+          "pastedText": null
+        },
+        {
+          "display": "we will use ticktick mcp with stdio transport, so no env for it's url",
+          "pastedText": null
+        },
+        {
+          "display": "you are hallucinating about ticktick mcp server docker image. Just leave it out from docekr-compose.yml for now, we will deal with it later",
+          "pastedText": null
+        },
+        {
+          "display": "use `docker compose` to run this. Make dockerfile for building necessary containers and docker-compose.yml run it.",
+          "pastedText": null
+        },
+        {
+          "display": "app flow should be the following: 1. webhook gets called. 2. we put trancript to celery 3. we check if there is activation phrase 4. if so, we call orchestration agent. ",
+          "pastedText": null
+        },
+        {
+          "display": "step 2: use previously created task extraction agent as a tool in orchestration agent. Do it using `as_tool` method (docs here:https://openai.github.io/openai-agents-python/ref/agent/#agents.agent.Agent.as_tool)",
+          "pastedText": null
+        },
+        {
+          "display": "ok, lets do it step by step. Step 1: we callthis agent only for prompts with activation phrase. We check for it beforehand. Remove unnecessary check from code and prompts.",
+          "pastedText": null
+        },
+        {
+          "display": "No, you miss the point. You should have task extraction agent as a tool for orchestration agent. ticktick mcp server as mcp server for orchestration agent. Orchestration agent itself should have a prompt like \"given the transcript and the activation phrase please find out list of task that need to be created and create them in ticktick using mcp server\"",
+          "pastedText": null
+        },
+        {
+          "display": "we should not implement mcp client, use the server you have found previously with the orchestration agent like it is described in the docs here: https://openai.github.io/openai-agents-python/mcp/",
+          "pastedText": null
+        },
+        {
+          "display": "nevermind",
+          "pastedText": null
+        },
+        {
+          "display": "task creation should be done using ticktick mcp server, that is used by porchestration agent. So the final setup will be like this: there is and orchestration agent, that uses task extraction agent to get tasks, and then uses ticktick mcp server to put them in tick tick. Search the web for the most suitable ticktick mcp serer as there are several of them",
+          "pastedText": null
+        },
+        {
+          "display": "for now use just list of strings as output schema, we do not need more than that at this point",
+          "pastedText": null
+        },
+        {
+          "display": "no, use openai-agents agent and specify return data format with pydantic models. you can find documentation for this library here: https://openai.github.io/openai-agents-python/agents/",
+          "pastedText": null
+        },
+        {
+          "display": "use rabbitmq as a broker for celery",
+          "pastedText": null
+        },
+        {
+          "display": "nevermind, go ahead",
+          "pastedText": null
+        },
+        {
+          "display": "we should not disclose if we have found tasks or not to the caller. webhook should return http 200 or error code if something is wrong, that's it. I thonk that we should use celery for the internal task queue, so the webhook grabs transcript field (if there is one), then puts it into celery, and then it got procesed by activation detector, task extractor etc.",
+          "pastedText": null
+        },
+        {
+          "display": "you should create venv with uv, then activate it, then install dependencies and then run it like `uv run pytest`",
+          "pastedText": null
+        },
+        {
+          "display": "please read file PROJECT.md. Init new python project and start implementing it. ",
+          "pastedText": null
+        },
+        {
+          "display": "/init ",
+          "pastedText": null
+        },
+        ".",
+        "init"
+      ],
+      "dontCrawlDirectory": false,
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "enableAllProjectMcpServers": false,
+      "hasTrustDialogAccepted": true,
+      "ignorePatterns": [],
+      "projectOnboardingSeenCount": 2,
+      "hasCompletedProjectOnboarding": true,
+      "lastCost": 3.873835350000004,
+      "lastAPIDuration": 1308530,
+      "lastDuration": 7734346,
+      "lastLinesAdded": 223,
+      "lastLinesRemoved": 70,
+      "lastSessionId": "a1adad12-f4f6-4ce3-8e28-0c65da5c62ee"
+    },
+    "/Users/egv/dev/ticktick-mcp": {
+      "allowedTools": [],
+      "history": [
+        {
+          "display": "fetch projects form ticktick",
+          "pastedContents": {}
+        },
+        {
+          "display": "\"Error calling tool {\n  content: [\n    {\n      type: 'text',\n      text: 'delete_project() takes 1 positional argument but 2 were given'\n    }\n  ],\n  isError: true\n}\" I get the same error. Why?",
+          "pastedContents": {}
+        },
+        {
+          "display": "fetch projects form ticktick",
+          "pastedContents": {}
+        },
+        {
+          "display": "please use venv and uv",
+          "pastedContents": {}
+        },
+        {
+          "display": "issue is with the fact that wrong tool gets called with wring list of parameters",
+          "pastedContents": {}
+        },
+        {
+          "display": "try getting all projects from ticktick",
+          "pastedContents": {}
+        },
+        {
+          "display": ".",
+          "pastedContents": {}
+        },
+        {
+          "display": "/mcp ",
+          "pastedContents": {}
+        },
+        {
+          "display": ".",
+          "pastedContents": {}
+        },
+        {
+          "display": "where do you get mcp config from?",
+          "pastedContents": {}
+        },
+        {
+          "display": ".",
+          "pastedContents": {}
+        },
+        {
+          "display": "/mcp ",
+          "pastedContents": {}
+        },
+        {
+          "display": "/config ",
+          "pastedContents": {}
+        },
+        {
+          "display": "/mcp ",
+          "pastedContents": {}
+        },
+        {
+          "display": "/mcp list",
+          "pastedContents": {}
+        },
+        {
+          "display": "/help ",
+          "pastedContents": {}
+        },
+        {
+          "display": "/mcp ",
+          "pastedContents": {}
+        },
+        {
+          "display": "/mcp rm ticktick",
+          "pastedContents": {}
+        },
+        {
+          "display": "/mcp edit ticktick",
+          "pastedContents": {}
+        },
+        {
+          "display": "/mcp list",
+          "pastedContents": {}
+        },
+        {
+          "display": "/help mcp",
+          "pastedContents": {}
+        },
+        {
+          "display": "/mcp ",
+          "pastedContents": {}
+        },
+        {
+          "display": "error persists",
+          "pastedContents": {}
+        },
+        {
+          "display": "\"[Pasted text #1 +0 lines]\" i get this error while running mp server in stdio mode",
+          "pastedContents": {
+            "1": {
+              "id": 1,
+              "type": "text",
+              "content": " Unexpected non-whitespace character after JSON at position 4 (line 1 column 5) {\"context\":\"connection\",\"stack\":\"SyntaxError: Unexpected non-whitespace character after JSON at position 4 (line 1 column 5)\\n    at JSON.parse (<anonymous>)\\n    at F$e (/Applications/Claude.app/Contents/Resources/app.asar/.vite/build/index.js:108:189)\\n    at j$e.readMessage (/Applications/Claude.app/Contents/Resources/app.asar/.vite/build/index.js:108:115)\\n    at B$e.processReadBuffer (/Applications/Claude.app/Contents/Resources/app.asar/.vite/build/index.js:109:1842)\\n    at Socket.<anonymous> (/Applications/Claude.app/Contents/Resources/app.asar/.vite/build/index.js:109:1523)\\n    at Socket.emit (node:events:518:28)\\n    at addChunk (node:internal/streams/readable:561:12)\\n    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)\\n    at Readable.push (node:internal/streams/readable:392:5)\\n    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)\"}"
+            }
+          }
+        },
+        {
+          "display": "just use command line without any additional files",
+          "pastedContents": {}
+        },
+        {
+          "display": "use `uv run mcp run`",
+          "pastedContents": {}
+        },
+        {
+          "display": "fix the error above please",
+          "pastedContents": {}
+        },
+        {
+          "display": "!uv run mcp run ticktick_mcp/src/server.py",
+          "pastedContents": {}
+        },
+        {
+          "display": "try running server using `uv run mcp run`",
+          "pastedContents": {}
+        },
+        {
+          "display": "#For documenttion on python MCP servers or clients use https://github.com/modelcontextprotocol/python-sdk/tree/main and particularly examples in 'examples' directory there",
+          "pastedContents": {}
+        },
+        {
+          "display": ".",
+          "pastedContents": {}
+        },
+        {
+          "display": "no pip, uv run pip only. For MCP docs on how to run server in stdio mode please use https://github.com/modelcontextprotocol/python-sdk/blob/main/examples/servers/simple-tool/mcp_simple_tool/server.py",
+          "pastedContents": {}
+        },
+        {
+          "display": " uv run mcp run ticktick_mcp/src/server.py\nFailed to run server: attempted relative import with no known parent package\n\nplease help with this command",
+          "pastedContents": {}
+        },
+        {
+          "display": ".",
+          "pastedContents": {}
+        },
+        {
+          "display": "commit and push",
+          "pastedContents": {}
+        },
+        {
+          "display": "now please remove extenisive logging doem the project",
+          "pastedContents": {}
+        },
+        {
+          "display": "please refer to https://github.com/modelcontextprotocol/python-sdk/blob/main/examples/servers/simple-tool/mcp_simple_tool/server.py and see how to create initialization options",
+          "pastedContents": {}
+        },
+        {
+          "display": "\"TypeError: Server.run() missing 1 required positional argument: 'initialization_options'\" fix it. Refer to the exmple I gave you to see how to do it",
+          "pastedContents": {}
+        },
+        {
+          "display": ".",
+          "pastedContents": {}
+        },
+        {
+          "display": "not python, but `uv python`",
+          "pastedContents": {}
+        },
+        {
+          "display": "please fix the project. It is not running now. \" source .venv/bin/activate && uv run -m ticktick_mcp.cli run --transport sse --port 3434 --debug\nTraceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/Users/egv/dev/ticktick-mcp/ticktick_mcp/cli.py\", line 12, in <module>\n    from .src.server import main as server_main\n  File \"/Users/egv/dev/ticktick-mcp/ticktick_mcp/src/server.py\", line 11, in <module>\n    from mcp.server import types\nImportError: cannot import name 'types' from 'mcp.server' (/Users/egv/dev/ticktick-mcp/.venv/lib/python3.11/site-packages/mcp/server/__init__.py)\"",
+          "pastedContents": {}
+        },
+        {
+          "display": "please refer to https://github.com/modelcontextprotocol/python-sdk/blob/main/examples/servers/simple-tool/mcp_simple_tool/server.py and reimplement list_tools correctly",
+          "pastedContents": {}
+        },
+        {
+          "display": "\"AttributeError: 'FastMCP' object has no attribute 'create_initialization_options'\" you use FastMCP, but should use Server as it is shown in the example link I gave you",
+          "pastedContents": {}
+        },
+        {
+          "display": "please check server implementation in https://github.com/modelcontextprotocol/python-sdk/blob/main/examples/servers/simple-tool/mcp_simple_tool/server.py and do exactly the same ",
+          "pastedContents": {}
+        },
+        {
+          "display": "you should activate venv and use uv",
+          "pastedContents": {}
+        },
+        {
+          "display": "same: \"+-+---------------- 1 ----------------\n    | Traceback (most recent call last):\n    |   File \"/Users/egv/dev/ticktick-mcp/.venv/lib/python3.11/site-packages/mcp/server/sse.py\", line 131, in connect_sse\n    |     yield (read_stream, write_stream)\n    |   File \"/Users/egv/dev/ticktick-mcp/ticktick_mcp/src/server.py\", line 536, in handle_sse\n    |     await mcp.handle_request(streams[0], streams[1])\n    |           ^^^^^^^^^^^^^^^^^^\n    | AttributeError: 'FastMCP' object has no attribute 'handle_request'\"",
+          "pastedContents": {}
+        },
+        {
+          "display": "I get this error: \"   | Traceback (most recent call last):\n    |   File \"/Users/egv/dev/ticktick-mcp/.venv/lib/python3.11/site-packages/mcp/server/sse.py\", line 131, in connect_sse\n    |     yield (read_stream, write_stream)\n    |   File \"/Users/egv/dev/ticktick-mcp/ticktick_mcp/src/server.py\", line 536, in handle_sse\n    |     await mcp.handle_streams(streams[0], streams[1])\n    |           ^^^^^^^^^^^^^^^^^^\n    | AttributeError: 'FastMCP' object has no attribute 'handle_streams'\" please fix it",
+          "pastedContents": {}
+        },
+        {
+          "display": ".",
+          "pastedContents": {}
+        },
+        {
+          "display": "/mcp ",
+          "pastedContents": {}
+        },
+        {
+          "display": "/help ",
+          "pastedContents": {}
+        },
+        {
+          "display": "stop",
+          "pastedContents": {}
+        },
+        {
+          "display": "\"[Pasted text #1 +24 lines] \" I still see that log level is info instead of trace of debug. Why?",
+          "pastedContents": {
+            "1": {
+              "id": 1,
+              "type": "text",
+              "content": "2025-05-04 01:06:08,856 - ticktick_mcp.src.server - ERROR - MCP SSE endpoint should be available at: http://0.0.0.0:3434/messages/ or /sse\n2025-05-04 01:06:08,856 ERROR [ticktick_mcp.src.server] MCP SSE endpoint should be available at: http://0.0.0.0:3434/messages/ or /sse\n2025-05-04 01:06:08,856 - ticktick_mcp.src.server - ERROR - Cursor is trying to connect to: http://0.0.0.0:3434/sse\n2025-05-04 01:06:08,856 ERROR [ticktick_mcp.src.server] Cursor is trying to connect to: http://0.0.0.0:3434/sse\n2025-05-04 01:06:08,856 - ticktick_mcp.src.server - ERROR - Starting SSE transport server...\n2025-05-04 01:06:08,856 ERROR [ticktick_mcp.src.server] Starting SSE transport server...\n2025-05-04 01:06:08,860 DEBUG [asyncio] Using selector: KqueueSelector\nSseServerTransport initialized with endpoint: /messages/\nSseServerTransport initialized with endpoint: /messages/\nSseServerTransport initialized with endpoint: /messages/\n2025-05-04 01:06:08,860 DEBUG [mcp.server.sse] SseServerTransport initialized with endpoint: /messages/\nINFO:     Started server process [51067]\nINFO:     Waiting for application startup.\nINFO:     Application startup complete.\nINFO:     Uvicorn running on http://0.0.0.0:3434 (Press CTRL+C to quit)\nINFO:     127.0.0.1:50422 - \"GET / HTTP/1.1\" 404 Not Found\nINFO:     127.0.0.1:50423 - \"GET / HTTP/1.1\" 404 Not Found\nINFO:     127.0.0.1:50439 - \"GET /messages/ HTTP/1.1\" 401 Unauthorized\nINFO:     127.0.0.1:50440 - \"GET /messages/ HTTP/1.1\" 401 Unauthorized\nINFO:     127.0.0.1:50464 - \"GET /sse HTTP/1.1\" 401 Unauthorized\nINFO:     127.0.0.1:50465 - \"GET /sse HTTP/1.1\" 401 Unauthorized\nINFO:     127.0.0.1:50468 - \"GET /sse HTTP/1.1\" 401 Unauthorized\nINFO:     127.0.0.1:50469 - \"GET /sse HTTP/1.1\" 401 Unauthorized\nINFO:     127.0.0.1:50470 - \"GET /sse HTTP/1.1\" 401 Unauthorized\nINFO:     127.0.0.1:50471 - \"GET /sse HTTP/1.1\" 401 Unauthorized"
+            }
+          }
+        },
+        {
+          "display": "\"\n2025-05-04 01:02:58,059 DEBUG [asyncio] Using selector: KqueueSelector\n2025-05-04 01:02:58,060 DEBUG [mcp.server.sse] SseServerTransport initialized with endpoint: /messages/\nINFO:     Started server process [50849]\nINFO:     Waiting for application startup.\nINFO:     Application startup complete.\nINFO:     Uvicorn running on http://0.0.0.0:3434 (Press CTRL+C to quit)\nINFO:     127.0.0.1:50230 - \"GET /sse HTTP/1.1\" 401 Unauthorized\nINFO:     127.0.0.1:50232 - \"GET /sse HTTP/1.1\" 401 Unauthorized\nINFO:     127.0.0.1:50250 - \"GET /sse HTTP/1.1\" 401 Unauthorized\nINFO:     127.0.0.1:50251 - \"GET /sse HTTP/1.1\" 401 Unauthorized\nINFO:     127.0.0.1:50252 - \"GET /sse HTTP/1.1\" 401 Unauthorized\" no additiona verbosity in logs. what's gone wrong?",
+          "pastedContents": {}
+        },
+        {
+          "display": "add most verbose http proto debugging",
+          "pastedContents": {}
+        },
+        {
+          "display": "how can I confugure cursor to use this mcp for debugging?",
+          "pastedContents": {}
+        },
+        {
+          "display": "are you sure that claude desktop supports sse mcp? I am getting \"There was an error reading or parsing claude_desktop_config.json: [\n{\n\"code\": \"invalid_type\",\n\"expected\": \"string\",\n\"received\": \"undefined\",\n\"path\": [\n\"mcpServers\",\n\"ticktick\",\n\"command\"\n],\n\"message\": \"Required\"\n}\n]\" when adding your suggestion to comfig",
+          "pastedContents": {}
+        },
+        {
+          "display": "no, you do not get it. I get 401 from MY server, that is made in server.py, not from ticktick api server",
+          "pastedContents": {}
+        },
+        {
+          "display": "why do i get 401 when trying to run this mcp server as sse ",
+          "pastedContents": {}
+        },
+        {
+          "display": ".",
+          "pastedContents": {}
+        },
+        {
+          "display": "please check that docker setup uses token correctly",
+          "pastedContents": {}
+        },
+        {
+          "display": "token works like a charm in command line. Let's see where we've fucked up and forgot to pass it to API",
+          "pastedContents": {}
+        },
+        {
+          "display": "for some reason when I try to use this server i get 401 unathorized. Please tell me why it can happen and how it can be fixed",
+          "pastedContents": {}
+        },
+        {
+          "display": "update the pr",
+          "pastedContents": {}
+        },
+        {
+          "display": "commit and push ",
+          "pastedContents": {}
+        },
+        {
+          "display": "remove SSE_AVAILABLE completely",
+          "pastedContents": {}
+        },
+        {
+          "display": "please completly remove check for sse transport availability. It is always available.",
+          "pastedContents": {}
+        },
+        {
+          "display": ".",
+          "pastedContents": {}
+        },
+        {
+          "display": "\"zinochka-ticktick-mcp  | SSE transport not available: No module named 'mcp.server.transport'\nzinochka-ticktick-mcp  | INFO:ticktick_mcp.src.server:Successfully connected to TickTick API with 3 projects\nzinochka-ticktick-mcp  | INFO:ticktick_mcp.src.server:Starting TickTick MCP server with SSE transport on 0.0.0.0:3434\nzinochka-ticktick-mcp  | ERROR:ticktick_mcp.src.server:SSE transport not available in the mcp library. Please check your mcp installation.\nzinochka-ticktick-mcp  | ERROR:ticktick_mcp.src.server:The mcp library should provide the SSE transport functionality.\" got this while running in docker. Fix it",
+          "pastedContents": {}
+        },
+        {
+          "display": "use all commit message in my repo to make up pr description",
+          "pastedContents": {}
+        },
+        {
+          "display": "seem lile you have lost all pr description and no only the ast cmmit description is used. Plesse update, not rewrite pr description. Rebuild it from all the commit please  ",
+          "pastedContents": {}
+        },
+        {
+          "display": "why do we import and require starlette and uvicorn? everything related should be inside the fastmcp library and we should not need them in our requirements.txt",
+          "pastedContents": {}
+        },
+        {
+          "display": "httpx-sse and sse-starlette are imported from our code?",
+          "pastedContents": {}
+        },
+        {
+          "display": "look like we do not need to have starlette, uvicorn and httpx in requirements.txt since those are transient dependencies",
+          "pastedContents": {}
+        },
+        {
+          "display": "!cat requirements.txt",
+          "pastedContents": {}
+        },
+        {
+          "display": "udpate requirements.txt, commit and push + update the pr",
+          "pastedContents": {}
+        },
+        {
+          "display": "!kill -9 19705",
+          "pastedContents": {}
+        },
+        {
+          "display": "find out what is running on port 3434",
+          "pastedContents": {}
+        },
+        {
+          "display": ".",
+          "pastedContents": {}
+        },
+        {
+          "display": "try running it in mcp mode",
+          "pastedContents": {}
+        },
+        {
+          "display": "please consult code at https://github.com/modelcontextprotocol/python-sdk/blob/main/src/mcp/server/fastmcp/server.py and implement SSE using FastMCP class only with proper configs",
+          "pastedContents": {}
+        },
+        {
+          "display": "\"  File \"/Users/egv/dev/ticktick-mcp/ticktick_mcp/src/server.py\", line 505, in run_mcp_server\n    await mcp.run(\n          ^^^^^^^^\nTypeError: FastMCP.run() takes from 1 to 2 positional arguments but 3 were given\" got while running. Fix it please",
+          "pastedContents": {}
+        },
+        {
+          "display": ".",
+          "pastedContents": {}
+        },
+        {
+          "display": "use uv",
+          "pastedContents": {}
+        },
+        {
+          "display": "try to run it first",
+          "pastedContents": {}
+        },
+        {
+          "display": "\"warning: The package `mcp==1.7.0` does not have an extra named `sse`\" fix this first",
+          "pastedContents": {}
+        },
+        {
+          "display": "install in venv, not --system",
+          "pastedContents": {}
+        },
+        {
+          "display": "use uv",
+          "pastedContents": {}
+        },
+        {
+          "display": "try to run it as sse",
+          "pastedContents": {}
+        },
+        {
+          "display": "try to run it as se",
+          "pastedContents": {}
+        },
+        {
+          "display": "looks like you miss uvicorn",
+          "pastedContents": {}
+        },
+        {
+          "display": "you should really update requirements.txt to include all required sse libs",
+          "pastedContents": {}
+        },
+        {
+          "display": "update error message so it will use uv ",
+          "pastedContents": {}
+        },
+        {
+          "display": "see hwo to run sse server here: https://github.com/modelcontextprotocol/python-sdk/blob/main/examples/servers/simple-tool/mcp_simple_tool/server.py",
+          "pastedContents": {}
+        },
+        {
+          "display": "\"zinochka-ticktick-mcp  | INFO:ticktick_mcp.src.server:Successfully connected to TickTick API with 3 projects\nzinochka-ticktick-mcp  | INFO:ticktick_mcp.src.server:Starting TickTick MCP server with SSE transport on 0.0.0.0:3434\nzinochka-ticktick-mcp  | Error starting server: FastMCP.run() got an unexpected keyword argument 'host'\" when runnng container. Please check params using this doc: https://github.com/modelcontextprotocol/python-sdk",
+          "pastedContents": {}
+        },
+        {
+          "display": "should I really have refresh token for oauth all the time? Looks like original implementation did not have it ",
+          "pastedContents": {}
+        },
+        {
+          "display": "\" ERROR:ticktick_mcp.src.server:No .env file found and no environment variables set. Please run 'uv run -m ticktick_mcp.cli auth' to set up authentication.\nzinochka-ticktick-mcp  | ERROR:ticktick_mcp.src.server:Failed to initialize TickTick client. Please check your API credentials.\" what is missing? Can you add more verbose logging? What variable causes this?",
+          "pastedContents": {}
+        },
+        {
+          "display": "[Pasted text #1 +13 lines] ",
+          "pastedContents": {
+            "1": {
+              "id": 1,
+              "type": "text",
+              "content": "zinochka-ticktick-mcp  | Authentication setup required!\nzinochka-ticktick-mcp  | You need to set up TickTick authentication before running the server.\nzinochka-ticktick-mcp  |\nzinochka-ticktick-mcp  | Traceback (most recent call last):\nzinochka-ticktick-mcp  |   File \"/usr/local/lib/python3.10/runpy.py\", line 196, in _run_module_as_main\nzinochka-ticktick-mcp  |     return _run_code(code, main_globals, None,\nzinochka-ticktick-mcp  |   File \"/usr/local/lib/python3.10/runpy.py\", line 86, in _run_code\nzinochka-ticktick-mcp  |     exec(code, run_globals)\nzinochka-ticktick-mcp  |   File \"/app/ticktick_mcp/cli.py\", line 119, in <module>\nzinochka-ticktick-mcp  |     main()\nzinochka-ticktick-mcp  |   File \"/app/ticktick_mcp/cli.py\", line 77, in main\nzinochka-ticktick-mcp  |     choice = input().lower().strip()\nzinochka-ticktick-mcp  | EOFError: EOF when reading a line\nzinochka-ticktick-mcp  | Would you like to set up authentication now? (y/n):"
+            }
+          }
+        },
+        {
+          "display": "when using mcp server as docker container i get \"[Pasted text #1 +13 lines]\" server goes in eternal loop. I supply all env vars using env_file docker_compose directove",
+          "pastedContents": {
+            "1": {
+              "id": 1,
+              "type": "text",
+              "content": "zinochka-ticktick-mcp  | Authentication setup required!\nzinochka-ticktick-mcp  | You need to set up TickTick authentication before running the server.\nzinochka-ticktick-mcp  |\nzinochka-ticktick-mcp  | Traceback (most recent call last):\nzinochka-ticktick-mcp  |   File \"/usr/local/lib/python3.10/runpy.py\", line 196, in _run_module_as_main\nzinochka-ticktick-mcp  |     return _run_code(code, main_globals, None,\nzinochka-ticktick-mcp  |   File \"/usr/local/lib/python3.10/runpy.py\", line 86, in _run_code\nzinochka-ticktick-mcp  |     exec(code, run_globals)\nzinochka-ticktick-mcp  |   File \"/app/ticktick_mcp/cli.py\", line 119, in <module>\nzinochka-ticktick-mcp  |     main()\nzinochka-ticktick-mcp  |   File \"/app/ticktick_mcp/cli.py\", line 77, in main\nzinochka-ticktick-mcp  |     choice = input().lower().strip()\nzinochka-ticktick-mcp  | EOFError: EOF when reading a line\nzinochka-ticktick-mcp  | Would you like to set up authentication now? (y/n):"
+            }
+          }
+        },
+        {
+          "display": "update pr",
+          "pastedContents": {}
+        },
+        {
+          "display": "commit and push",
+          "pastedContents": {}
+        }
+      ],
+      "dontCrawlDirectory": false,
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [
+        "ticktick"
+      ],
+      "disabledMcpjsonServers": [],
+      "enableAllProjectMcpServers": false,
+      "hasTrustDialogAccepted": true,
+      "ignorePatterns": [],
+      "projectOnboardingSeenCount": 4,
+      "exampleFiles": [
+        "server.py",
+        "ticktick_client.py",
+        "cli.py",
+        "README.md",
+        "Dockerfile"
+      ],
+      "exampleFilesGeneratedAt": 1746150384885,
+      "lastCost": 0.9985061499999994,
+      "lastAPIDuration": 240995,
+      "lastDuration": 4491929,
+      "lastLinesAdded": 18,
+      "lastLinesRemoved": 7,
+      "lastSessionId": "ae67a4a0-daa4-49a9-ac68-f4a24a155d1a"
+    },
+    "/Users/egv/dev/ticktick-mcp/.claude": {
+      "allowedTools": [],
+      "history": [
+        {
+          "display": "add all required dependencies and istall them in venv using uv",
+          "pastedText": null
+        },
+        {
+          "display": "see if all dependencies in ticktick_mcp/serc/server.py are in requirements.txt",
+          "pastedText": null
+        },
+        {
+          "display": "/clear ",
+          "pastedText": null
+        },
+        ".",
+        {
+          "display": "use @requirements.txt",
+          "pastedText": null
+        },
+        {
+          "display": "looks like I've made a mistake. Continue with requirements.txt",
+          "pastedText": null
+        },
+        {
+          "display": "you use only pyproject.toml for dependencie manage,ent",
+          "pastedText": null
+        },
+        {
+          "display": "please reimplement sse transport like it is done here: https://github.com/modelcontextprotocol/python-sdk/blob/main/examples/servers/simple-tool/mcp_simple_tool/server.py",
+          "pastedText": null
+        },
+        {
+          "display": "/mcp ",
+          "pastedText": null
+        }
+      ],
+      "dontCrawlDirectory": false,
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [
+        "ticktick"
+      ],
+      "disabledMcpjsonServers": [],
+      "enableAllProjectMcpServers": true,
+      "hasTrustDialogAccepted": false,
+      "ignorePatterns": [],
+      "projectOnboardingSeenCount": 2,
+      "exampleFiles": [
+        "server.py",
+        "cli.py",
+        "ticktick_client.py",
+        "requirements.txt",
+        "README.md"
+      ],
+      "exampleFilesGeneratedAt": 1746347736341,
+      "lastCost": 0.12483465000000002,
+      "lastAPIDuration": 61598,
+      "lastDuration": 154437,
+      "lastLinesAdded": 4,
+      "lastLinesRemoved": 1,
+      "lastSessionId": "b414cce0-b619-4f66-99c9-220151b9093a"
+    },
+    "/Users/egv/dev/zinochka/ticktick-mcp-other": {
+      "allowedTools": [],
+      "history": [
+        {
+          "display": "show my tasks in ticktick",
+          "pastedContents": {}
+        },
+        {
+          "display": "show tasks in home  project",
+          "pastedContents": {}
+        },
+        {
+          "display": "show tasks in ящик project",
+          "pastedContents": {}
+        },
+        {
+          "display": "show my projects in ticktick",
+          "pastedContents": {}
+        },
+        {
+          "display": "move venv to .venv",
+          "pastedContents": {}
+        },
+        {
+          "display": "server will wait indefinetily holding the terminal, command will not exit, what are you waiting for?",
+          "pastedContents": {}
+        },
+        {
+          "display": "i've placed required key to @.env please use dotenv to get it from there",
+          "pastedContents": {}
+        },
+        {
+          "display": "now in @main.py add option to run mcp server with stdio transport",
+          "pastedContents": {}
+        },
+        {
+          "display": "!ls",
+          "pastedContents": {}
+        },
+        {
+          "display": "add venv and install dependencies",
+          "pastedContents": {}
+        }
+      ],
+      "dontCrawlDirectory": false,
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [
+        "ticktick"
+      ],
+      "disabledMcpjsonServers": [],
+      "enableAllProjectMcpServers": true,
+      "hasTrustDialogAccepted": false,
+      "ignorePatterns": [],
+      "projectOnboardingSeenCount": 2,
+      "lastCost": 0.1664271,
+      "lastAPIDuration": 55598,
+      "lastDuration": 1967723,
+      "lastLinesAdded": 0,
+      "lastLinesRemoved": 0,
+      "lastSessionId": "d7213306-a60b-4906-9823-8f0c7de16430"
+    },
+    "/Users/egv/dev/zinochka/ticktick-mcp-own": {
+      "allowedTools": [],
+      "history": [
+        {
+          "display": "and in the end, ehat is ued by the library to authenticate http requests? just the token or something else obtained during the auth process?",
+          "pastedContents": {}
+        },
+        {
+          "display": "ok, so please make detailed plan on how we will make customa auth with only oauth token and why it will work?",
+          "pastedContents": {}
+        },
+        {
+          "display": "please explain how current auth is working and why your change are needed",
+          "pastedContents": {}
+        },
+        {
+          "display": "please fix auth so that when access token is in .env or in environment it will work",
+          "pastedContents": {}
+        },
+        {
+          "display": "!cat .env",
+          "pastedContents": {}
+        },
+        {
+          "display": "stop",
+          "pastedContents": {}
+        },
+        {
+          "display": "run `uv run python -m ticktick_mcp --access-token ea55291f-ba79-412d-9747-01014696aed1` and fix errors pleasse",
+          "pastedContents": {}
+        },
+        {
+          "display": "please see this url on how to implement mcp server https://github.com/modelcontextprotocol/python-sdk/blob/main/examples/servers/simple-tool/mcp_simple_tool/server.py",
+          "pastedContents": {}
+        },
+        {
+          "display": "actual version is 2.0.3, it is clearly stated right on the index page of the docs I have provided )",
+          "pastedContents": {}
+        },
+        {
+          "display": "where did you get ticktick-py version?",
+          "pastedContents": {}
+        },
+        {
+          "display": "and add \"mcp[cli]\" while we are at it, so we can use inspector for debugging",
+          "pastedContents": {}
+        },
+        {
+          "display": "you are using wrong library for mcp as far as I can see. Why have you decided to use this one? URL from your memry tells otherwise",
+          "pastedContents": {}
+        },
+        {
+          "display": "we do not need this package",
+          "pastedContents": {}
+        },
+        {
+          "display": "uv sync",
+          "pastedContents": {}
+        },
+        {
+          "display": "there is already a venv",
+          "pastedContents": {}
+        },
+        {
+          "display": "try to install dependencies",
+          "pastedContents": {}
+        },
+        {
+          "display": "create or update .gitignore ",
+          "pastedContents": {}
+        },
+        {
+          "display": "for sample file please mount .env",
+          "pastedContents": {}
+        },
+        {
+          "display": "and how you will pass API token for ticktick inside the container?",
+          "pastedContents": {}
+        },
+        {
+          "display": "can we make port configurable so it will be passed in docker-compose.yml?",
+          "pastedContents": {}
+        },
+        {
+          "display": "entrypoint should use uv also\nuse sse transport for container",
+          "pastedContents": {}
+        },
+        {
+          "display": "if your transport is stdio like in dockerfile, you do not need server address and port\nhow you will pass ticktick oauth token into container?",
+          "pastedContents": {}
+        },
+        {
+          "display": "use uv docker images so we do not need to install uv manually",
+          "pastedContents": {}
+        },
+        {
+          "display": "server configuration should also be command-line, with command line being more important than env",
+          "pastedContents": {}
+        },
+        {
+          "display": "we do not need such a big project structure. All can be implemented in one file, really. You only need to proxy calls and define proxies as \"mcp.tool\"",
+          "pastedContents": {}
+        },
+        {
+          "display": "please see section \"Project description\" in @README.md and implement the project",
+          "pastedContents": {}
+        },
+        {
+          "display": "#use this url for documentation on ticktick api lib: https://lazeroffmichael.github.io/ticktick-py/",
+          "pastedContents": {}
+        },
+        {
+          "display": "we will use different layout",
+          "pastedContents": {}
+        },
+        {
+          "display": "init new python project",
+          "pastedContents": {}
+        },
+        {
+          "display": "#always use uv for managing python projects and dependencies. All deps should be stored in pyproject.toml, NOT in requirements.txt. Use uv to run all python-related commands. Always use venv",
+          "pastedContents": {}
+        },
+        {
+          "display": "init",
+          "pastedContents": {}
+        }
+      ],
+      "dontCrawlDirectory": false,
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "enableAllProjectMcpServers": false,
+      "hasTrustDialogAccepted": false,
+      "ignorePatterns": [],
+      "projectOnboardingSeenCount": 2,
+      "hasCompletedProjectOnboarding": true,
+      "lastCost": 2.3791464000000047,
+      "lastAPIDuration": 1118700,
+      "lastDuration": 48328691,
+      "lastLinesAdded": 625,
+      "lastLinesRemoved": 124,
+      "lastSessionId": "18782bbd-0cdc-4258-8329-46a03215f185"
+    },
+    "/Users/egv/dev/zinochka/zinochka": {
+      "allowedTools": [],
+      "history": [
+        {
+          "display": ".",
+          "pastedContents": {}
+        }
+      ],
+      "dontCrawlDirectory": false,
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "enableAllProjectMcpServers": false,
+      "hasTrustDialogAccepted": false,
+      "ignorePatterns": [],
+      "projectOnboardingSeenCount": 0,
+      "exampleFiles": [
+        "tasks.py",
+        "main.py",
+        "task_extractor.py",
+        "orchestration.py",
+        "services.py"
+      ],
+      "exampleFilesGeneratedAt": 1746614728063,
+      "lastCost": 0.0873615,
+      "lastAPIDuration": 7755,
+      "lastDuration": 25561200,
+      "lastLinesAdded": 0,
+      "lastLinesRemoved": 0,
+      "lastSessionId": "9980d6b0-bf39-429e-a339-6bf1fc8e88a9"
+    },
+    "/Users/egv": {
+      "allowedTools": [],
+      "history": [
+        {
+          "display": "/cost ",
+          "pastedContents": {}
+        },
+        {
+          "display": "/model ",
+          "pastedContents": {}
+        },
+        {
+          "display": "/cost ",
+          "pastedContents": {}
+        },
+        {
+          "display": "/login ",
+          "pastedContents": {}
+        }
+      ],
+      "dontCrawlDirectory": true,
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "hasTrustDialogAccepted": false,
+      "ignorePatterns": [],
+      "projectOnboardingSeenCount": 2,
+      "lastCost": 0.0007264000000000001,
+      "lastAPIDuration": 5785,
+      "lastDuration": 34562,
+      "lastLinesAdded": 0,
+      "lastLinesRemoved": 0,
+      "lastTotalInputTokens": 578,
+      "lastTotalOutputTokens": 66,
+      "lastTotalCacheCreationInputTokens": 0,
+      "lastTotalCacheReadInputTokens": 0,
+      "lastSessionId": "1a073cdc-70f8-4ba1-9178-bd6300687c34"
+    },
+    "/Users/egv/dev/yandex/box_day": {
+      "allowedTools": [],
+      "history": [
+        {
+          "display": "you are waiting fro running server to finish. It will never happen, believe me",
+          "pastedContents": {}
+        },
+        {
+          "display": "use uv sync to install dependencies",
+          "pastedContents": {}
+        },
+        {
+          "display": "plesse use uv for python. Use venv.",
+          "pastedContents": {}
+        },
+        {
+          "display": "ok, please @main.py for Lusaka",
+          "pastedContents": {}
+        },
+        {
+          "display": "what is the capital of Zambia",
+          "pastedContents": {}
+        },
+        {
+          "display": "/init ",
+          "pastedContents": {}
+        },
+        {
+          "display": "/cost ",
+          "pastedContents": {}
+        }
+      ],
+      "dontCrawlDirectory": false,
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "enableAllProjectMcpServers": false,
+      "hasTrustDialogAccepted": true,
+      "ignorePatterns": [],
+      "projectOnboardingSeenCount": 1,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "hasCompletedProjectOnboarding": true,
+      "lastCost": 0.09568580000000003,
+      "lastAPIDuration": 286874,
+      "lastDuration": 7225595,
+      "lastLinesAdded": 105,
+      "lastLinesRemoved": 76,
+      "lastTotalInputTokens": 41539,
+      "lastTotalOutputTokens": 4865,
+      "lastTotalCacheCreationInputTokens": 0,
+      "lastTotalCacheReadInputTokens": 0,
+      "lastSessionId": "8e6f2fa1-66b2-4f58-9e79-14fc75fabdb5"
+    },
+    "/Users/egv/dev/yandex/dora": {
+      "allowedTools": [],
+      "history": [
+        {
+          "display": "plesse move @dora/http_server.py to separate directory and move model definitiona out of this file, so it will become more readable and easier to navigate. Do not forget to update @README.md with new project layout",
+          "pastedContents": {}
+        },
+        {
+          "display": "please move @dora/http_server.py to separate directory and move model definitions into separate files, so it will be easier to understand and navigate the code. Do not forget to update README with up to date inof about project structure",
+          "pastedContents": {}
+        },
+        {
+          "display": "please test /v1/chat/completions for dora, see params etc in @dora/http_server.py ",
+          "pastedContents": {}
+        },
+        {
+          "display": "test endpoint with admin:admin123 at al-vizier.haet.ru",
+          "pastedContents": {}
+        },
+        {
+          "display": "use admin:admin123 and header",
+          "pastedContents": {}
+        },
+        {
+          "display": "commit and push",
+          "pastedContents": {}
+        },
+        {
+          "display": "lets generate hash for password admin123",
+          "pastedContents": {}
+        },
+        {
+          "display": "try admin",
+          "pastedContents": {}
+        },
+        {
+          "display": "use admin:admin123 and header",
+          "pastedContents": {}
+        },
+        {
+          "display": "please make curl to test it",
+          "pastedContents": {}
+        },
+        {
+          "display": "pull changes from git and reexamine @docker-compose.yml. There is an basic auth,",
+          "pastedContents": {}
+        },
+        {
+          "display": "plese use curl to test if this endpoint is accessible at al-vizier.haet.ru",
+          "pastedContents": {}
+        },
+        {
+          "display": "can you look into traefic configs and see if there is any acces control from that endpoint?",
+          "pastedContents": {}
+        },
+        {
+          "display": "please tell how /v1/chat/completions endpoint is protected. I get 401 when trying to access it",
+          "pastedContents": {}
+        },
+        {
+          "display": "please check how auth for \"/v1/chat/completions\" endpoint is done",
+          "pastedContents": {}
+        },
+        {
+          "display": "!git push",
+          "pastedContents": {}
+        },
+        {
+          "display": "commit and push",
+          "pastedContents": {}
+        },
+        {
+          "display": "add https server to docker compose file, use letsencrypt for getting certifiactes. hostname is al-vizier.haet.ru and email for certs is g.evstratov@gmail.com",
+          "pastedContents": {}
+        },
+        {
+          "display": "revert to the last commit",
+          "pastedContents": {}
+        },
+        {
+          "display": "\"/v1/chat/completions'\ndora-http-server   |     results = await process_city(\ndora-telegram-bot  | 2025-05-29 06:07:36,684 - dora.telegram_bot - ERROR - Error processing city tashkent: 500, message='Internal Server Error', url='http://http-server:8000/v1/chat/completions'\ndora-http-server   |               ^^^^^^^^^^^^^^^^^^^\ndora-http-server   |   File \"/app/dora/__main__.py\", line 356, in process_city\ndora-http-server   |     event_classifier = EventClassifierAgent()\ndora-http-server   |                        ^^^^^^^^^^^^^^^^^^^^^^\ndora-http-server   | TypeError: EventClassifierAgent() missing 1 required positional argument: 'event_data'\" got this while running",
+          "pastedContents": {}
+        },
+        {
+          "display": "please move http_server to separate directory. Move all data wmdoels from it to separate files",
+          "pastedContents": {}
+        },
+        {
+          "display": "/ide ",
+          "pastedContents": {}
+        },
+        {
+          "display": "ok, you still not get it. ",
+          "pastedContents": {}
+        },
+        {
+          "display": "ok, looka lke you are doing it wrong. Main agent is orchestrator.  I should use all other agents as tools. Thwre should not be any constructor parameters to agents. ",
+          "pastedContents": {}
+        },
+        {
+          "display": "please remove legacy.py and make all code use new agent layout",
+          "pastedContents": {}
+        },
+        {
+          "display": "what code uses this legacy?",
+          "pastedContents": {}
+        },
+        {
+          "display": "what is @dora/agents/legacy.py why is it there? no actions, just answer",
+          "pastedContents": {}
+        },
+        {
+          "display": "/doctor ",
+          "pastedContents": {}
+        },
+        {
+          "display": "/ide ",
+          "pastedContents": {}
+        },
+        {
+          "display": "[Pasted text #1 +15 lines]",
+          "pastedContents": {
+            "1": {
+              "id": 1,
+              "type": "text",
+              "content": "dora-telegram-bot  | 2025-05-29 05:15:19,168 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7845298318:AAHLiZ0qu7J1eQP3gMBe4adkgvGYtY3To8o/getUpdates \"HTTP/1.1 200 OK\"\ndora-http-server   | INFO:     127.0.0.1:60724 - \"GET /health HTTP/1.1\" 200 OK\ndora-http-server   | 2025-05-29 05:15:29,092 - dora.http_server - ERROR - Error processing request: 'ClassificationOutputSchema' object has no attribute 'classification'\ndora-http-server   | Traceback (most recent call last):\ndora-telegram-bot  | 2025-05-29 05:15:29,093 - dora.http_client - ERROR - HTTP request failed: 500, message='Internal Server Error', url='http://http-server:8000/v1/chat/completions'\ndora-http-server   |   File \"/app/dora/http_server.py\", line 319, in process_request\ndora-telegram-bot  | 2025-05-29 05:15:29,093 - dora.telegram_bot - ERROR - Error processing city tashkent: 500, message='Internal Server Error', url='http://http-server:8000/v1/chat/completions'\ndora-http-server   |     results = await process_city(\ndora-http-server   |               ^^^^^^^^^^^^^^^^^^^\ndora-http-server   |   File \"/app/dora/__main__.py\", line 440, in process_city\ndora-http-server   |     classification = classification_result.final_output.classification\ndora-http-server   |                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\ndora-http-server   |   File \"/app/.venv/lib/python3.11/site-packages/pydantic/main.py\", line 989, in __getattr__\ndora-http-server   |     raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')\ndora-http-server   | AttributeError: 'ClassificationOutputSchema' object has no attribute 'classification'\ndora-http-server   | 2025-05-29 05:15:29,093 - dora.http_server - ERROR - Error processing request: 500: Internal error: 'ClassificationOutputSchema' object has no attribute 'classification'"
+            }
+          }
+        },
+        {
+          "display": "correct import is agents",
+          "pastedContents": {}
+        },
+        {
+          "display": "[Pasted text #1 +51 lines]",
+          "pastedContents": {
+            "1": {
+              "id": 1,
+              "type": "text",
+              "content": "dora-http-server   |    Building dora @ file:///app\ndora-http-server   |       Built dora @ file:///app\ndora-http-server   | Uninstalled 1 package in 45ms\ndora-http-server   | Installed 1 package in 0.31ms\ndora-http-server   | 2025-05-29 05:09:32,055 - __main__ - INFO - Starting HTTP server on 0.0.0.0:8000\ndora-http-server   | Traceback (most recent call last):\ndora-http-server   |   File \"/app/run_http_server.py\", line 54, in <module>\ndora-http-server   |     main()\ndora-http-server   |   File \"/app/run_http_server.py\", line 44, in main\ndora-http-server   |     uvicorn.run(\ndora-http-server   |   File \"/app/.venv/lib/python3.11/site-packages/uvicorn/main.py\", line 580, in run\ndora-http-server   |     server.run()\ndora-http-server   |   File \"/app/.venv/lib/python3.11/site-packages/uvicorn/server.py\", line 66, in run\ndora-http-server   |     return asyncio.run(self.serve(sockets=sockets))\ndora-http-server   |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\ndora-http-server   |   File \"/usr/local/lib/python3.11/asyncio/runners.py\", line 190, in run\ndora-http-server   |     return runner.run(main)\ndora-http-server   |            ^^^^^^^^^^^^^^^^\ndora-http-server   |   File \"/usr/local/lib/python3.11/asyncio/runners.py\", line 118, in run\ndora-http-server   |     return self._loop.run_until_complete(task)\ndora-http-server   |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\ndora-http-server   |   File \"/usr/local/lib/python3.11/asyncio/base_events.py\", line 654, in run_until_complete\ndora-http-server   |     return future.result()\ndora-http-server   |            ^^^^^^^^^^^^^^^\ndora-http-server   |   File \"/app/.venv/lib/python3.11/site-packages/uvicorn/server.py\", line 70, in serve\ndora-http-server   |     await self._serve(sockets)\ndora-http-server   |   File \"/app/.venv/lib/python3.11/site-packages/uvicorn/server.py\", line 77, in _serve\ndora-http-server   |     config.load()\ndora-http-server   |   File \"/app/.venv/lib/python3.11/site-packages/uvicorn/config.py\", line 435, in load\ndora-http-server   |     self.loaded_app = import_from_string(self.app)\ndora-http-server   |                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\ndora-http-server   |   File \"/app/.venv/lib/python3.11/site-packages/uvicorn/importer.py\", line 19, in import_from_string\ndora-http-server   |     module = importlib.import_module(module_str)\ndora-http-server   |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\ndora-http-server   |   File \"/usr/local/lib/python3.11/importlib/__init__.py\", line 126, in import_module\ndora-http-server   |     return _bootstrap._gcd_import(name[level:], package, level)\ndora-http-server   |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\ndora-http-server   |   File \"<frozen importlib._bootstrap>\", line 1204, in _gcd_import\ndora-http-server   |   File \"<frozen importlib._bootstrap>\", line 1176, in _find_and_load\ndora-http-server   |   File \"<frozen importlib._bootstrap>\", line 1147, in _find_and_load_unlocked\ndora-http-server   |   File \"<frozen importlib._bootstrap>\", line 690, in _load_unlocked\ndora-http-server   |   File \"<frozen importlib._bootstrap_external>\", line 940, in exec_module\ndora-http-server   |   File \"<frozen importlib._bootstrap>\", line 241, in _call_with_frames_removed\ndora-http-server   |   File \"/app/dora/http_server.py\", line 19, in <module>\ndora-http-server   |     from dora.__main__ import process_city\ndora-http-server   |   File \"/app/dora/__main__.py\", line 38, in <module>\ndora-http-server   |     from dora.agents import (\ndora-http-server   |   File \"/app/dora/agents/__init__.py\", line 9, in <module>\ndora-http-server   |     from .message_parser import MessageParserAgent\ndora-http-server   |   File \"/app/dora/agents/message_parser.py\", line 5, in <module>\ndora-http-server   |     from dora.models.messages import ParsedQuery\ndora-http-server   | ImportError: cannot import name 'ParsedQuery' from 'dora.models.messages' (/app/dora/models/messages.py)"
+            }
+          }
+        },
+        {
+          "display": "you are using \"openai_agents\" in impoerts. It is actually \"agents\"\n",
+          "pastedContents": {}
+        },
+        {
+          "display": "ok cool. I see all agents are in the same file. Please move each agent into it's own separate file so it will be easier for both of us to see what's happening with them",
+          "pastedContents": {}
+        },
+        {
+          "display": "I can see @dora/memory_cache.py and @dora/mcp/memory_server.py which one is used? Do not take any action, just explain what and why ",
+          "pastedContents": {}
+        },
+        {
+          "display": "merge pr and move to main branch",
+          "pastedContents": {}
+        },
+        {
+          "display": "!git branch",
+          "pastedContents": {}
+        },
+        {
+          "display": "then add this file to gitignore",
+          "pastedContents": {}
+        },
+        {
+          "display": "commit, push, merge into master",
+          "pastedContents": {}
+        },
+        {
+          "display": "nice. please tell me, is running `docker compose up` enought to load new code?",
+          "pastedContents": {}
+        },
+        {
+          "display": "\"# The uv image already runs as a non-root user, but we need to ensure ownership\nUSER root\nRUN chown -R uv:uv /app\n\n# Switch back to uv user\nUSER uv\" why do we need this in @Dockerfile ",
+          "pastedContents": {}
+        },
+        {
+          "display": "why do we need to do apt-get install in @Dockerfile ?",
+          "pastedContents": {}
+        },
+        {
+          "display": "well, ok, but for uv we should use uv's image, like it is described here https://docs.astral.sh/uv/guides/integration/docker/",
+          "pastedContents": {}
+        },
+        {
+          "display": "@Dockerfile make no sence, but it is referenced in @docker-compose.yml why?",
+          "pastedContents": {}
+        },
+        {
+          "display": "remove unused containers from @docker-compose.yml ",
+          "pastedContents": {}
+        },
+        {
+          "display": "[Pasted text #1 +43 lines]",
+          "pastedContents": {
+            "1": {
+              "id": 1,
+              "type": "text",
+              "content": " 2025-05-29 04:16:35,612 - dora.telegram_bot - ERROR - Update Update(message=Message(channel_chat_created=False, chat=Chat(first_name='Gena', id=681056, last_name='Evstratov', type=<ChatType.PRIVATE>, username='jewpacabra'), date=datetime.datetime(2025, 5, 29, 4, 15, 54, tzinfo=datetime.timezone.utc), delete_chat_photo=False, from_user=User(first_name='Gena', id=681056, is_bot=False, is_premium=True, language_code='en', last_name='Evstratov', username='jewpacabra'), group_chat_created=False, message_id=216, supergroup_chat_created=False, text='tashkent'), update_id=26709925) caused error Message to delete not found\ndora-telegram-bot  | 2025-05-29 04:16:35,612 - dora.telegram_bot - ERROR - Exception in error handler:\ndora-telegram-bot  | Traceback (most recent call last):\ndora-telegram-bot  |   File \"/app/dora/telegram_bot.py\", line 404, in handle_city\ndora-telegram-bot  |     await send_results(update, city, results)\ndora-telegram-bot  |   File \"/app/dora/telegram_bot.py\", line 471, in send_results\ndora-telegram-bot  |     message += f\"👥 Audience: {', '.join(classification['target_audiences'])}\\n\"\ndora-telegram-bot  |                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\ndora-telegram-bot  | TypeError: sequence item 0: expected str instance, dict found\ndora-telegram-bot  |\ndora-telegram-bot  | During handling of the above exception, another exception occurred:\ndora-telegram-bot  |\ndora-telegram-bot  | Traceback (most recent call last):\ndora-telegram-bot  |   File \"/app/.venv/lib/python3.11/site-packages/telegram/ext/_application.py\", line 1298, in process_update\ndora-telegram-bot  |     await coroutine\ndora-telegram-bot  |   File \"/app/.venv/lib/python3.11/site-packages/telegram/ext/_handlers/basehandler.py\", line 158, in handle_update\ndora-telegram-bot  |     return await self.callback(update, context)\ndora-telegram-bot  |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\ndora-telegram-bot  |   File \"/app/dora/telegram_bot.py\", line 408, in handle_city\ndora-telegram-bot  |     await processing_msg.delete()\ndora-telegram-bot  |   File \"/app/.venv/lib/python3.11/site-packages/telegram/_message.py\", line 4193, in delete\ndora-telegram-bot  |     return await self.get_bot().delete_message(\ndora-telegram-bot  |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\ndora-telegram-bot  |   File \"/app/.venv/lib/python3.11/site-packages/telegram/ext/_extbot.py\", line 1394, in delete_message\ndora-telegram-bot  |     return await super().delete_message(\ndora-telegram-bot  |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\ndora-telegram-bot  |   File \"/app/.venv/lib/python3.11/site-packages/telegram/_bot.py\", line 1169, in delete_message\ndora-telegram-bot  |     return await self._post(\ndora-telegram-bot  |            ^^^^^^^^^^^^^^^^^\ndora-telegram-bot  |   File \"/app/.venv/lib/python3.11/site-packages/telegram/_bot.py\", line 697, in _post\ndora-telegram-bot  |     return await self._do_post(\ndora-telegram-bot  |            ^^^^^^^^^^^^^^^^^^^^\ndora-telegram-bot  |   File \"/app/.venv/lib/python3.11/site-packages/telegram/ext/_extbot.py\", line 369, in _do_post\ndora-telegram-bot  |     return await super()._do_post(\ndora-telegram-bot  |            ^^^^^^^^^^^^^^^^^^^^^^^\ndora-telegram-bot  |   File \"/app/.venv/lib/python3.11/site-packages/telegram/_bot.py\", line 726, in _do_post\ndora-telegram-bot  |     result = await request.post(\ndora-telegram-bot  |              ^^^^^^^^^^^^^^^^^^^\ndora-telegram-bot  |   File \"/app/.venv/lib/python3.11/site-packages/telegram/request/_baserequest.py\", line 197, in post\ndora-telegram-bot  |     result = await self._request_wrapper(\ndora-telegram-bot  |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\ndora-telegram-bot  |   File \"/app/.venv/lib/python3.11/site-packages/telegram/request/_baserequest.py\", line 353, in _request_wrapper\ndora-telegram-bot  |     raise BadRequest(message)\ndora-telegram-bot  | telegram.error.BadRequest: Message to delete not found"
+            }
+          }
+        },
+        {
+          "display": "\"[Pasted text #1 +43 lines]\" fix this",
+          "pastedContents": {
+            "1": {
+              "id": 1,
+              "type": "text",
+              "content": "dora-telegram-bot  | 2025-05-29 04:07:32,453 - dora.telegram_bot - ERROR - Update Update(message=Message(channel_chat_created=False, chat=Chat(first_name='Gena', id=681056, last_name='Evstratov', type=<ChatType.PRIVATE>, username='jewpacabra'), date=datetime.datetime(2025, 5, 29, 4, 4, tzinfo=datetime.timezone.utc), delete_chat_photo=False, from_user=User(first_name='Gena', id=681056, is_bot=False, is_premium=True, language_code='en', last_name='Evstratov', username='jewpacabra'), group_chat_created=False, message_id=212, supergroup_chat_created=False, text='tashkent'), update_id=26709924) caused error Message to delete not found\ndora-telegram-bot  | 2025-05-29 04:07:32,453 - dora.telegram_bot - ERROR - Exception in error handler:\ndora-telegram-bot  | Traceback (most recent call last):\ndora-telegram-bot  |   File \"/app/dora/telegram_bot.py\", line 404, in handle_city\ndora-telegram-bot  |     await send_results(update, city, results)\ndora-telegram-bot  |   File \"/app/dora/telegram_bot.py\", line 471, in send_results\ndora-telegram-bot  |     message += f\"👥 Audience: {', '.join(classification['target_audiences'])}\\n\"\ndora-telegram-bot  |                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\ndora-telegram-bot  | TypeError: sequence item 0: expected str instance, dict found\ndora-telegram-bot  |\ndora-telegram-bot  | During handling of the above exception, another exception occurred:\ndora-telegram-bot  |\ndora-telegram-bot  | Traceback (most recent call last):\ndora-telegram-bot  |   File \"/app/.venv/lib/python3.11/site-packages/telegram/ext/_application.py\", line 1298, in process_update\ndora-telegram-bot  |     await coroutine\ndora-telegram-bot  |   File \"/app/.venv/lib/python3.11/site-packages/telegram/ext/_handlers/basehandler.py\", line 158, in handle_update\ndora-telegram-bot  |     return await self.callback(update, context)\ndora-telegram-bot  |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\ndora-telegram-bot  |   File \"/app/dora/telegram_bot.py\", line 408, in handle_city\ndora-telegram-bot  |     await processing_msg.delete()\ndora-telegram-bot  |   File \"/app/.venv/lib/python3.11/site-packages/telegram/_message.py\", line 4193, in delete\ndora-telegram-bot  |     return await self.get_bot().delete_message(\ndora-telegram-bot  |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\ndora-telegram-bot  |   File \"/app/.venv/lib/python3.11/site-packages/telegram/ext/_extbot.py\", line 1394, in delete_message\ndora-telegram-bot  |     return await super().delete_message(\ndora-telegram-bot  |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\ndora-telegram-bot  |   File \"/app/.venv/lib/python3.11/site-packages/telegram/_bot.py\", line 1169, in delete_message\ndora-telegram-bot  |     return await self._post(\ndora-telegram-bot  |            ^^^^^^^^^^^^^^^^^\ndora-telegram-bot  |   File \"/app/.venv/lib/python3.11/site-packages/telegram/_bot.py\", line 697, in _post\ndora-telegram-bot  |     return await self._do_post(\ndora-telegram-bot  |            ^^^^^^^^^^^^^^^^^^^^\ndora-telegram-bot  |   File \"/app/.venv/lib/python3.11/site-packages/telegram/ext/_extbot.py\", line 369, in _do_post\ndora-telegram-bot  |     return await super()._do_post(\ndora-telegram-bot  |            ^^^^^^^^^^^^^^^^^^^^^^^\ndora-telegram-bot  |   File \"/app/.venv/lib/python3.11/site-packages/telegram/_bot.py\", line 726, in _do_post\ndora-telegram-bot  |     result = await request.post(\ndora-telegram-bot  |              ^^^^^^^^^^^^^^^^^^^\ndora-telegram-bot  |   File \"/app/.venv/lib/python3.11/site-packages/telegram/request/_baserequest.py\", line 197, in post\ndora-telegram-bot  |     result = await self._request_wrapper(\ndora-telegram-bot  |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\ndora-telegram-bot  |   File \"/app/.venv/lib/python3.11/site-packages/telegram/request/_baserequest.py\", line 353, in _request_wrapper\ndora-telegram-bot  |     raise BadRequest(message)\ndora-telegram-bot  | telegram.error.BadRequest: Message to delete not found\""
+            }
+          }
+        },
+        {
+          "display": "what are doing? Just chwck that all models you use in agents are json serializable. No need to run everything for every edit",
+          "pastedContents": {}
+        },
+        {
+          "display": "\"[Pasted text #1 +31 lines]\"\n\n\nthis is not the first problem like this I see. Please verify that all objects are serializable  ",
+          "pastedContents": {
+            "1": {
+              "id": 1,
+              "type": "text",
+              "content": "dora-http-server   |     response_content = self._format_events_as_json(results)\ndora-telegram-bot  | 2025-05-29 03:34:02,186 - dora.telegram_bot - ERROR - Error processing city ташкент: 500, message='Internal Server Error', url='http://http-server:8000/v1/chat/completions'\ndora-http-server   |                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\ndora-http-server   |   File \"/app/dora/http_server.py\", line 343, in _format_events_as_json\ndora-http-server   |     return json.dumps({\"notifications\": notifications_data}, indent=2)\ndora-http-server   |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\ndora-http-server   |   File \"/usr/local/lib/python3.11/json/__init__.py\", line 238, in dumps\ndora-http-server   |     **kw).encode(obj)\ndora-http-server   |           ^^^^^^^^^^^\ndora-http-server   |   File \"/usr/local/lib/python3.11/json/encoder.py\", line 202, in encode\ndora-http-server   |     chunks = list(chunks)\ndora-http-server   |              ^^^^^^^^^^^^\ndora-http-server   |   File \"/usr/local/lib/python3.11/json/encoder.py\", line 432, in _iterencode\ndora-http-server   |     yield from _iterencode_dict(o, _current_indent_level)\ndora-http-server   |   File \"/usr/local/lib/python3.11/json/encoder.py\", line 406, in _iterencode_dict\ndora-http-server   |     yield from chunks\ndora-http-server   |   File \"/usr/local/lib/python3.11/json/encoder.py\", line 326, in _iterencode_list\ndora-http-server   |     yield from chunks\ndora-http-server   |   File \"/usr/local/lib/python3.11/json/encoder.py\", line 406, in _iterencode_dict\ndora-http-server   |     yield from chunks\ndora-http-server   |   File \"/usr/local/lib/python3.11/json/encoder.py\", line 406, in _iterencode_dict\ndora-http-server   |     yield from chunks\ndora-http-server   |   File \"/usr/local/lib/python3.11/json/encoder.py\", line 326, in _iterencode_list\ndora-http-server   |     yield from chunks\ndora-http-server   |   File \"/usr/local/lib/python3.11/json/encoder.py\", line 439, in _iterencode\ndora-http-server   |     o = _default(o)\ndora-http-server   |         ^^^^^^^^^^^\ndora-http-server   |   File \"/usr/local/lib/python3.11/json/encoder.py\", line 180, in default\ndora-http-server   |     raise TypeError(f'Object of type {o.__class__.__name__} '\ndora-http-server   | TypeError: Object of type AudienceData is not JSON serializable\ndora-http-server   | 2025-05-29 03:34:02,185 - dora.http_server - ERROR - Error processing request: 500: Internal error: Object of type AudienceData is not JSON serializable\ndora-http-server   | INFO:     172.19.0.3:56782 - \"POST /v1/chat/completions HTTP/1.1\" 500 Internal Server Error"
+            }
+          }
+        },
+        {
+          "display": "[Pasted text #1 +31 lines]",
+          "pastedContents": {
+            "1": {
+              "id": 1,
+              "type": "text",
+              "content": "dora-http-server   |     response_content = self._format_events_as_json(results)\ndora-telegram-bot  | 2025-05-29 03:34:02,186 - dora.telegram_bot - ERROR - Error processing city ташкент: 500, message='Internal Server Error', url='http://http-server:8000/v1/chat/completions'\ndora-http-server   |                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\ndora-http-server   |   File \"/app/dora/http_server.py\", line 343, in _format_events_as_json\ndora-http-server   |     return json.dumps({\"notifications\": notifications_data}, indent=2)\ndora-http-server   |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\ndora-http-server   |   File \"/usr/local/lib/python3.11/json/__init__.py\", line 238, in dumps\ndora-http-server   |     **kw).encode(obj)\ndora-http-server   |           ^^^^^^^^^^^\ndora-http-server   |   File \"/usr/local/lib/python3.11/json/encoder.py\", line 202, in encode\ndora-http-server   |     chunks = list(chunks)\ndora-http-server   |              ^^^^^^^^^^^^\ndora-http-server   |   File \"/usr/local/lib/python3.11/json/encoder.py\", line 432, in _iterencode\ndora-http-server   |     yield from _iterencode_dict(o, _current_indent_level)\ndora-http-server   |   File \"/usr/local/lib/python3.11/json/encoder.py\", line 406, in _iterencode_dict\ndora-http-server   |     yield from chunks\ndora-http-server   |   File \"/usr/local/lib/python3.11/json/encoder.py\", line 326, in _iterencode_list\ndora-http-server   |     yield from chunks\ndora-http-server   |   File \"/usr/local/lib/python3.11/json/encoder.py\", line 406, in _iterencode_dict\ndora-http-server   |     yield from chunks\ndora-http-server   |   File \"/usr/local/lib/python3.11/json/encoder.py\", line 406, in _iterencode_dict\ndora-http-server   |     yield from chunks\ndora-http-server   |   File \"/usr/local/lib/python3.11/json/encoder.py\", line 326, in _iterencode_list\ndora-http-server   |     yield from chunks\ndora-http-server   |   File \"/usr/local/lib/python3.11/json/encoder.py\", line 439, in _iterencode\ndora-http-server   |     o = _default(o)\ndora-http-server   |         ^^^^^^^^^^^\ndora-http-server   |   File \"/usr/local/lib/python3.11/json/encoder.py\", line 180, in default\ndora-http-server   |     raise TypeError(f'Object of type {o.__class__.__name__} '\ndora-http-server   | TypeError: Object of type AudienceData is not JSON serializable\ndora-http-server   | 2025-05-29 03:34:02,185 - dora.http_server - ERROR - Error processing request: 500: Internal error: Object of type AudienceData is not JSON serializable\ndora-http-server   | INFO:     172.19.0.3:56782 - \"POST /v1/chat/completions HTTP/1.1\" 500 Internal Server Error"
+            }
+          }
+        },
+        {
+          "display": "-http-server   | 2025-05-28 10:50:56,007 - dora.__main__ - INFO - Processing event 9/10: Концерт Олены Уутай\ndora-http-server   | 2025-05-28 10:50:56,008 - dora.__main__ - INFO - Classifying event: Концерт Олены Уутай\ndora-http-server   | 2025-05-28 10:50:59,034 - dora.__main__ - INFO - Classified event in 3.03s\ndora-telegram-bot  | 2025-05-28 10:50:59,461 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7845298318:AAHLiZ0qu7J1eQP3gMBe4adkgvGYtY3To8o/getUpdates \"HTTP/1.1 200 OK\"\ndora-http-server   | INFO:     127.0.0.1:58630 - \"GET /health HTTP/1.1\" 200 OK\ndora-telegram-bot  | 2025-05-28 10:51:09,565 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7845298318:AAHLiZ0qu7J1eQP3gMBe4adkgvGYtY3To8o/getUpdates \"HTTP/1.1 200 OK\"",
+          "pastedContents": {}
+        },
+        {
+          "display": "its `docker compose`, not `docker-compose`",
+          "pastedContents": {}
+        },
+        {
+          "display": "[Pasted text #1 +38 lines]",
+          "pastedContents": {
+            "1": {
+              "id": 1,
+              "type": "text",
+              "content": "dora-http-server   | 2025-05-28 09:39:46,369 - openai.agents - ERROR - Error getting response: Error code: 400 - {'error': {'message': \"Invalid schema for response_format 'final_output': In context=('properties', 'notifications', 'items'), schema must have a 'type' key.\", 'type': 'invalid_request_error', 'param': 'text.format.schema', 'code': 'invalid_json_schema'}}. (request_id: req_e19addd2daad45c41449bfd1cd516863)\ndora-http-server   | 2025-05-28 09:39:46,370 - dora.http_server - ERROR - Error processing request: Error code: 400 - {'error': {'message': \"Invalid schema for response_format 'final_output': In context=('properties', 'notifications', 'items'), schema must have a 'type' key.\", 'type': 'invalid_request_error', 'param': 'text.format.schema', 'code': 'invalid_json_schema'}}\ndora-http-server   | Traceback (most recent call last):\ndora-http-server   |   File \"/app/dora/http_server.py\", line 377, in process_request\ndora-telegram-bot  | 2025-05-28 09:39:46,378 - dora.http_client - ERROR - HTTP request failed: 500, message='Internal Server Error', url='http://http-server:8000/v1/chat/completions'\ndora-http-server   |     response_content = await self._format_with_agent(results, schema)\ndora-telegram-bot  | 2025-05-28 09:39:46,378 - dora.telegram_bot - ERROR - Error processing city tashkent: 500, message='Internal Server Error', url='http://http-server:8000/v1/chat/completions'\ndora-http-server   |                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\ndora-http-server   |   File \"/app/dora/http_server.py\", line 307, in _format_with_agent\ndora-http-server   |     result = await Runner.run(agent, json_module.dumps({\"events\": events_data}))\ndora-http-server   |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\ndora-http-server   |   File \"/app/.venv/lib/python3.11/site-packages/agents/run.py\", line 218, in run\ndora-http-server   |     input_guardrail_results, turn_result = await asyncio.gather(\ndora-http-server   |                                            ^^^^^^^^^^^^^^^^^^^^^\ndora-http-server   |   File \"/app/.venv/lib/python3.11/site-packages/agents/run.py\", line 760, in _run_single_turn\ndora-http-server   |     new_response = await cls._get_new_response(\ndora-http-server   |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\ndora-http-server   |   File \"/app/.venv/lib/python3.11/site-packages/agents/run.py\", line 919, in _get_new_response\ndora-http-server   |     new_response = await model.get_response(\ndora-http-server   |                    ^^^^^^^^^^^^^^^^^^^^^^^^^\ndora-http-server   |   File \"/app/.venv/lib/python3.11/site-packages/agents/models/openai_responses.py\", line 76, in get_response\ndora-http-server   |     response = await self._fetch_response(\ndora-http-server   |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^\ndora-http-server   |   File \"/app/.venv/lib/python3.11/site-packages/agents/models/openai_responses.py\", line 242, in _fetch_response\ndora-http-server   |     return await self._client.responses.create(\ndora-http-server   |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\ndora-http-server   |   File \"/app/.venv/lib/python3.11/site-packages/openai/resources/responses/responses.py\", line 1559, in create\ndora-http-server   |     return await self._post(\ndora-http-server   |            ^^^^^^^^^^^^^^^^^\ndora-http-server   |   File \"/app/.venv/lib/python3.11/site-packages/openai/_base_client.py\", line 1742, in post\ndora-http-server   |     return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)\ndora-http-server   |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\ndora-http-server   |   File \"/app/.venv/lib/python3.11/site-packages/openai/_base_client.py\", line 1549, in request\ndora-http-server   |     raise self._make_status_error_from_response(err.response) from None\ndora-http-server   | openai.BadRequestError: Error code: 400 - {'error': {'message': \"Invalid schema for response_format 'final_output': In context=('properties', 'notifications', 'items'), schema must have a 'type' key.\", 'type': 'invalid_request_error', 'param': 'text.format.schema', 'code': 'invalid_json_schema'}}\ndora-http-server   | 2025-05-28 09:39:46,377 - dora.http_server - ERROR - Error processing request: 500: Internal error: Error code: 400 - {'error': {'message': \"Invalid schema for response_format 'final_output': In context=('properties', 'notifications', 'items'), schema must have a 'type' key.\", 'type': 'invalid_request_error', 'param': 'text.format.schema', 'code': 'invalid_json_schema'}}\ndora-http-server   | INFO:     172.19.0.3:36634 - \"POST /v1/chat/completions HTTP/1.1\" 500 Internal Server Error\ndora-telegram-bot  | 2025-05-28 09:39:47,195 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7845298318:AAHLiZ0qu7J1eQP3gMBe4adkgvGYtY3To8o/deleteMessage \"HTTP/1.1 200 OK\"\ndora-telegram-bot  | 2025-05-28 09:39:47,518 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7845298318:AAHLiZ0qu7J1eQP3gMBe4adkgvGYtY3To8o/sendMessage \"HTTP/1.1 200 OK\""
+            }
+          }
+        },
+        {
+          "display": "I can see that http server is not really using json schema for generating json responce. It should parse schema into pydantic model and then pass it to agent as an output schema",
+          "pastedContents": {}
+        },
+        {
+          "display": "commit and push",
+          "pastedContents": {}
+        },
+        {
+          "display": "[Pasted text #1 +18 lines]",
+          "pastedContents": {
+            "1": {
+              "id": 1,
+              "type": "text",
+              "content": "dora-http-server   | 2025-05-28 08:53:41,262 - dora.__main__ - INFO - Cache stats: 14 entries, 14.3% hit rate, 0.10MB\ndora-http-server   | 2025-05-28 08:53:41,262 - dora.http_server - ERROR - Error processing request: 'NotificationData' object has no attribute 'context'\ndora-http-server   | Traceback (most recent call last):\ndora-http-server   |   File \"/app/dora/http_server.py\", line 270, in process_request\ndora-http-server   |     response_content = self._format_events_as_json(results)\ndora-telegram-bot  | 2025-05-28 08:53:41,263 - dora.http_client - ERROR - HTTP request failed: 500, message='Internal Server Error', url='http://http-server:8000/v1/chat/completions'\ndora-http-server   |                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\ndora-telegram-bot  | 2025-05-28 08:53:41,263 - dora.telegram_bot - ERROR - Error processing city tashkent: 500, message='Internal Server Error', url='http://http-server:8000/v1/chat/completions'\ndora-http-server   |   File \"/app/dora/http_server.py\", line 226, in _format_events_as_json\ndora-http-server   |     \"notifications\": [\ndora-http-server   |                      ^\ndora-http-server   |   File \"/app/dora/http_server.py\", line 232, in <listcomp>\ndora-http-server   |     } if notif.context else None\ndora-http-server   |          ^^^^^^^^^^^^^\ndora-http-server   |   File \"/app/.venv/lib/python3.11/site-packages/pydantic/main.py\", line 989, in __getattr__\ndora-http-server   |     raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')\ndora-http-server   | AttributeError: 'NotificationData' object has no attribute 'context'\ndora-http-server   | 2025-05-28 08:53:41,263 - dora.http_server - ERROR - Error processing request: 500: Internal error: 'NotificationData' object has no attribute 'context'\ndora-http-server   | INFO:     172.19.0.3:42568 - \"POST /v1/chat/completions HTTP/1.1\" 500 Internal Server Error"
+            }
+          }
+        },
+        {
+          "display": "\"[Pasted text #1 +16 lines]\" got this, fix it please",
+          "pastedContents": {
+            "1": {
+              "id": 1,
+              "type": "text",
+              "content": "dora-http-server   | 2025-05-28 08:46:21,397 - dora.__main__ - INFO - Generated 9 notifications in 28.78s\ndora-http-server   | 2025-05-28 08:46:21,407 - dora.__main__ - INFO - Cache stats: 10 entries, 0.0% hit rate, 0.08MB\ndora-http-server   | 2025-05-28 08:46:21,407 - dora.http_server - ERROR - Error processing request: 'EventClassification' object has no attribute 'audiences'\ndora-http-server   | Traceback (most recent call last):\ndora-http-server   |   File \"/app/dora/http_server.py\", line 270, in process_request\ndora-telegram-bot  | 2025-05-28 08:46:21,408 - dora.http_client - ERROR - HTTP request failed: 500, message='Internal Server Error', url='http://http-server:8000/v1/chat/completions'\ndora-http-server   |     response_content = self._format_events_as_json(results)\ndora-telegram-bot  | 2025-05-28 08:46:21,409 - dora.telegram_bot - ERROR - Error processing city tashkent: 500, message='Internal Server Error', url='http://http-server:8000/v1/chat/completions'\ndora-http-server   |                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\ndora-http-server   |   File \"/app/dora/http_server.py\", line 224, in _format_events_as_json\ndora-http-server   |     \"target_audiences\": notification.classification.audiences\ndora-http-server   |                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\ndora-http-server   |   File \"/app/.venv/lib/python3.11/site-packages/pydantic/main.py\", line 989, in __getattr__\ndora-http-server   |     raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')\ndora-http-server   | AttributeError: 'EventClassification' object has no attribute 'audiences'\ndora-http-server   | 2025-05-28 08:46:21,408 - dora.http_server - ERROR - Error processing request: 500: Internal error: 'EventClassification' object has no attribute 'audiences'\ndora-http-server   | INFO:     172.19.0.3:48652 - \"POST /v1/chat/completions HTTP/1.1\" 500 Internal Server Error\""
+            }
+          }
+        },
+        {
+          "display": "\"[Pasted text #1 +14 lines]\" got this in logs while executing request from bot. Please fix this",
+          "pastedContents": {
+            "1": {
+              "id": 1,
+              "type": "text",
+              "content": "dora-http-server   | 2025-05-28 08:39:31,963 - dora.__main__ - INFO - Classified event in 2.87s\ndora-http-server   | INFO:     127.0.0.1:42052 - \"GET /health HTTP/1.1\" 200 OK\ndora-http-server   | 2025-05-28 08:39:34,840 - dora.http_server - ERROR - Error processing request: 'context'\ndora-http-server   | Traceback (most recent call last):\ndora-http-server   |   File \"/app/dora/http_server.py\", line 261, in process_request\ndora-http-server   |     results = await process_city(\ndora-http-server   |               ^^^^^^^^^^^^^^^^^^^\ndora-http-server   |   File \"/app/dora/__main__.py\", line 664, in process_city\ndora-telegram-bot  | 2025-05-28 08:39:34,842 - dora.http_client - ERROR - HTTP request failed: 500, message='Internal Server Error', url='http://http-server:8000/v1/chat/completions'\ndora-http-server   |     notif_dict[\"context\"][\"group_id\"] = \"general\"\ndora-telegram-bot  | 2025-05-28 08:39:34,843 - dora.telegram_bot - ERROR - Error processing city tashkent: 500, message='Internal Server Error', url='http://http-server:8000/v1/chat/completions'\ndora-http-server   |     ~~~~~~~~~~^^^^^^^^^^^\ndora-http-server   | KeyError: 'context'\ndora-http-server   | 2025-05-28 08:39:34,841 - dora.http_server - ERROR - Error processing request: 500: Internal error: 'context'\ndora-http-server   | INFO:     172.19.0.3:33466 - \"POST /v1/chat/completions HTTP/1.1\" 500 Internal Server Error\""
+            }
+          }
+        },
+        {
+          "display": "\"[Pasted text #1 +8 lines]\" got this while making request to the bot  Please fix",
+          "pastedContents": {
+            "1": {
+              "id": 1,
+              "type": "text",
+              "content": "dora-http-server   | 2025-05-28 07:39:34,859 - openai.agents - ERROR - Error getting response: Error code: 400 - {'error': {'message': \"Invalid schema for response_format 'final_output': In context=('properties', 'date_range', 'anyOf', '0'), array schema missing items.\", 'type': 'invalid_request_error', 'param': 'text.format.schema', 'code': 'invalid_json_schema'}}. (request_id: req_fe0cbde782f0a4de1c4eedf599ae5257)\ndora-http-server   | 2025-05-28 07:39:34,859 - dora.message_parser - ERROR - LLM parsing failed: Error code: 400 - {'error': {'message': \"Invalid schema for response_format 'final_output': In context=('properties', 'date_range', 'anyOf', '0'), array schema missing items.\", 'type': 'invalid_request_error', 'param': 'text.format.schema', 'code': 'invalid_json_schema'}}\ndora-http-server   | 2025-05-28 07:39:34,862 - dora.http_server - ERROR - Error processing request: 400: Could not determine which city to search for events. Please specify a city name.\ndora-http-server   | INFO:     172.19.0.3:59930 - \"POST /v1/chat/completions HTTP/1.1\" 500 Internal Server Error\ndora-telegram-bot  | 2025-05-28 07:39:34,863 - dora.http_client - ERROR - HTTP request failed: 500, message='Internal Server Error', url='http://http-server:8000/v1/chat/completions'\ndora-telegram-bot  | 2025-05-28 07:39:34,863 - dora.telegram_bot - ERROR - Error processing city tashkent: 500, message='Internal Server Error', url='http://http-server:8000/v1/chat/completions'\ndora-telegram-bot  | 2025-05-28 07:39:34,981 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7845298318:AAHLiZ0qu7J1eQP3gMBe4adkgvGYtY3To8o/deleteMessage \"HTTP/1.1 200 OK\"\ndora-telegram-bot  | 2025-05-28 07:39:35,115 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7845298318:AAHLiZ0qu7J1eQP3gMBe4adkgvGYtY3To8o/sendMessage \"HTTP/1.1 200 OK\"\ndora-telegram-bot  | 2025-05-28 07:39:43,198 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7845298318:AAHLiZ0qu7J1eQP3gMBe4adkgvGYtY3To8o/getUpdates \"HTTP/1.1 200 OK\""
+            }
+          }
+        },
+        {
+          "display": "dependency failed to start: container dora-http-server is unhealthy i got this when doing docker compose up",
+          "pastedContents": {}
+        },
+        {
+          "display": "[Pasted text #1 +75 lines]",
+          "pastedContents": {
+            "1": {
+              "id": 1,
+              "type": "text",
+              "content": "4.133  Downloading aiohttp\n4.176   × Failed to build `dora @ file:///app`\n4.176   ├─▶ The build backend returned an error\n4.176   ╰─▶ Call to `hatchling.build.build_editable` failed (exit status: 1)\n4.176\n4.176       [stderr]\n4.176       Traceback (most recent call last):\n4.176         File \"<string>\", line 11, in <module>\n4.176         File\n4.176       \"/root/.cache/uv/builds-v0/.tmpg3fMWE/lib/python3.11/site-packages/hatchling/build.py\",\n4.176       line 83, in build_editable\n4.176           return os.path.basename(next(builder.build(directory=wheel_directory,\n4.176       versions=['editable'])))\n4.176\n4.176       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n4.176         File\n4.176       \"/root/.cache/uv/builds-v0/.tmpg3fMWE/lib/python3.11/site-packages/hatchling/builders/plugin/interface.py\",\n4.176       line 155, in build\n4.176           artifact = version_api[version](directory, **build_data)\n4.176                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n4.176         File\n4.176       \"/root/.cache/uv/builds-v0/.tmpg3fMWE/lib/python3.11/site-packages/hatchling/builders/wheel.py\",\n4.176       line 496, in build_editable\n4.176           return self.build_editable_detection(directory, **build_data)\n4.176                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n4.176         File\n4.176       \"/root/.cache/uv/builds-v0/.tmpg3fMWE/lib/python3.11/site-packages/hatchling/builders/wheel.py\",\n4.176       line 507, in build_editable_detection\n4.176           for included_file in self.recurse_selected_project_files():\n4.176         File\n4.176       \"/root/.cache/uv/builds-v0/.tmpg3fMWE/lib/python3.11/site-packages/hatchling/builders/plugin/interface.py\",\n4.176       line 180, in recurse_selected_project_files\n4.176           if self.config.only_include:\n4.176              ^^^^^^^^^^^^^^^^^^^^^^^^\n4.176         File \"/usr/local/lib/python3.11/functools.py\", line 1001, in __get__\n4.176           val = self.func(instance)\n4.176                 ^^^^^^^^^^^^^^^^^^^\n4.176         File\n4.176       \"/root/.cache/uv/builds-v0/.tmpg3fMWE/lib/python3.11/site-packages/hatchling/builders/config.py\",\n4.176       line 713, in only_include\n4.176           only_include = only_include_config.get('only-include',\n4.176       self.default_only_include()) or self.packages\n4.176\n4.176       ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n4.176         File\n4.176       \"/root/.cache/uv/builds-v0/.tmpg3fMWE/lib/python3.11/site-packages/hatchling/builders/wheel.py\",\n4.176       line 262, in default_only_include\n4.176           return self.default_file_selection_options.only_include\n4.176                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n4.176         File \"/usr/local/lib/python3.11/functools.py\", line 1001, in __get__\n4.176           val = self.func(instance)\n4.176                 ^^^^^^^^^^^^^^^^^^^\n4.176         File\n4.176       \"/root/.cache/uv/builds-v0/.tmpg3fMWE/lib/python3.11/site-packages/hatchling/builders/wheel.py\",\n4.176       line 250, in default_file_selection_options\n4.176           raise ValueError(message)\n4.176       ValueError: Unable to determine which files to ship\n4.176       inside the wheel using the following heuristics:\n4.176       https://hatch.pypa.io/latest/plugins/builder/wheel/#default-file-selection\n4.176\n4.176       The most likely cause of this is that there is no directory that matches\n4.176       the name of your project (dora).\n4.176\n4.176       At least one file selection option must be defined\n4.176       in the `tool.hatch.build.targets.wheel` table, see:\n4.176       https://hatch.pypa.io/latest/config/build/\n4.176\n4.176       As an example, if you intend to ship a directory named `foo` that\n4.176       resides within a `src` directory located at the root of your project,\n4.176       you can define the following:\n4.176\n4.176       [tool.hatch.build.targets.wheel]\n4.176       packages = [\"src/foo\"]\n4.176\n4.176       hint: This usually indicates a problem with the package or the build\n4.176       environment."
+            }
+          }
+        },
+        {
+          "display": "plesse try `docker compose up`. It will fail. Fix the error.",
+          "pastedContents": {}
+        },
+        {
+          "display": "update readme to use `docker compose` instead of `docker-compose`",
+          "pastedContents": {}
+        },
+        {
+          "display": "please update @docker-compose.yml so it will start http server and telegram bot at the same time",
+          "pastedContents": {}
+        },
+        {
+          "display": "commit and push",
+          "pastedContents": {}
+        },
+        {
+          "display": "we have implemented http interface to dora. Please rewrite bot to use http interface for chatting",
+          "pastedContents": {}
+        },
+        {
+          "display": "/doctor ",
+          "pastedContents": {}
+        },
+        {
+          "display": "what model do you run on?",
+          "pastedContents": {}
+        },
+        {
+          "display": "when claude 4 will be available?",
+          "pastedContents": {}
+        },
+        {
+          "display": "what model do you run on?",
+          "pastedContents": {}
+        },
+        {
+          "display": "/help ",
+          "pastedContents": {}
+        },
+        {
+          "display": "/config ",
+          "pastedContents": {}
+        },
+        {
+          "display": "/status ",
+          "pastedContents": {}
+        },
+        {
+          "display": "/doctor ",
+          "pastedContents": {}
+        },
+        {
+          "display": "/help ",
+          "pastedContents": {}
+        },
+        {
+          "display": "/install-github-app ",
+          "pastedContents": {}
+        },
+        {
+          "display": "/status ",
+          "pastedContents": {}
+        },
+        {
+          "display": "/help ",
+          "pastedContents": {}
+        },
+        {
+          "display": "now all agents are in @dora/__main__.py Plesse put them in separate files, one file per agent",
+          "pastedContents": {}
+        },
+        {
+          "display": " pv",
+          "pastedContents": {}
+        },
+        {
+          "display": "commit and rebase into previous commit",
+          "pastedContents": {}
+        },
+        {
+          "display": "un @README.md section \"Development\" offers to install dependencies using `uv pip install`, which is against the rules, we use `uv sync` for that. Please update it.",
+          "pastedContents": {}
+        },
+        {
+          "display": "please make docker compose file to run all of this together",
+          "pastedContents": {}
+        },
+        {
+          "display": "memory MCP server should be stdio server",
+          "pastedContents": {}
+        },
+        {
+          "display": "yes please, let's implement this",
+          "pastedContents": {}
+        },
+        {
+          "display": "now lets do the following: implement MCP server that serves as a memory. After searching for event and generationg all the data for it we should store everything to memory and if we see the same event in results for next request we should use data for it from memory and not use other agents to generate everything again. This should be a persistent memory, so it will remain after bot restart. Please ultrathink on plan on how to do this and do not write code just now.",
+          "pastedContents": {}
+        },
+        {
+          "display": "commit and push",
+          "pastedContents": {}
+        },
+        {
+          "display": "please in @dora/telegram_bot.py send all generated notifications in the resulting message, not just the first one. Do not forget to specify language and group that notification is generated for.",
+          "pastedContents": {}
+        },
+        {
+          "display": "/clear ",
+          "pastedContents": {}
+        },
+        {
+          "display": "why orchestrator uses code and is not an AI agent with prompt and other agents as tools?",
+          "pastedContents": {}
+        },
+        {
+          "display": "plese explain me how the orchestration works with code samples",
+          "pastedContents": {}
+        },
+        {
+          "display": "now lets do the following: implement MCP server that serves as a memory. After searching for event and generationg all the data for it we should store everything to memory and if we see the same event in results for next request we should use data for it from memory and not use other agents to generate everything again. This should be a persistent memory, so it will remain after bot restart. Please ultrathink on plan on how to do this and do not write code just now.",
+          "pastedContents": {}
+        },
+        {
+          "display": "commit and push",
+          "pastedContents": {}
+        },
+        {
+          "display": "please implement \"/help\" command for bot that will show all the available commands and describe the mechanics",
+          "pastedContents": {}
+        },
+        {
+          "display": "when processing other request do not queue new one, drop it with the error message to the user",
+          "pastedContents": {}
+        },
+        {
+          "display": "2025-05-18 21:39:21,309 - dora.telegram_bot - INFO - Processing city: Abijan for user: jewpacabra\n2025-05-18 21:39:21,309 - dora.telegram_bot - ERROR - Error processing city Abijan: module 'agents' has no attribute 'set_api_key'\n\nI get this when trying to invoke the bot from the groupchat",
+          "pastedContents": {}
+        },
+        {
+          "display": "it worked! echo mode works, lets remove echo and leave only main function for mentions",
+          "pastedContents": {}
+        },
+        {
+          "display": "nothing is happening in console when I message to the group with or without mentioning the bot ",
+          "pastedContents": {}
+        },
+        {
+          "display": "when i do '/debug' in a chat the bot answers with \nDebug Information:\nBot username: @dora_the_explora_bot\nBot ID: 7845298318\nChat type: group\nChat ID: -4931282144\nChat title: Dora (the explora)\nUser: @jewpacabra (681056)\nMessage: /debug\nUpdate type: 26709853\n\nbut it ignores mentions",
+          "pastedContents": {}
+        },
+        {
+          "display": "when i do '/debug' in a chat the bot answers with \nDebug Information:\nBot username: @dora_the_explora_bot\nBot ID: 7845298318\nChat type: group\nChat ID: -4931282144\nChat title: Dora (the explora)\nUser: @jewpacabra (681056)\nMessage: /debug\nUpdate type: 26709853",
+          "pastedContents": {}
+        }
+      ],
+      "dontCrawlDirectory": false,
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "hasTrustDialogAccepted": true,
+      "projectOnboardingSeenCount": 1,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "hasCompletedProjectOnboarding": true,
+      "exampleFiles": [
+        "__main__.py",
+        "http_server.py",
+        "tools.py",
+        "telegram_bot.py",
+        "config.py"
+      ],
+      "exampleFilesGeneratedAt": 1748495527956
+    },
+    "/Users/egv/dev/yandex/ai_in_action_2": {
+      "allowedTools": [],
+      "history": [
+        {
+          "display": "/init ",
+          "pastedContents": {}
+        },
+        {
+          "display": "init",
+          "pastedContents": {}
+        },
+        {
+          "display": "this is mcp server, not a fastapi or everything",
+          "pastedContents": {}
+        },
+        {
+          "display": "[Pasted text #1 +18 lines]",
+          "pastedContents": {
+            "1": {
+              "id": 1,
+              "type": "text",
+              "content": "Traceback (most recent call last):\n  File \"/Users/egv/dev/yandex/ai_in_action_2/orchestrator/main.py\", line 32, in <module>\n    main()\n  File \"/Users/egv/dev/yandex/ai_in_action_2/orchestrator/main.py\", line 18, in main\n    fact = asyncio.run(call_mcp_tool())\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/egv/.local/share/uv/python/cpython-3.11.11-macos-aarch64-none/lib/python3.11/asyncio/runners.py\", line 190, in run\n    return runner.run(main)\n           ^^^^^^^^^^^^^^^^\n  File \"/Users/egv/.local/share/uv/python/cpython-3.11.11-macos-aarch64-none/lib/python3.11/asyncio/runners.py\", line 118, in run\n    return self._loop.run_until_complete(task)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/egv/.local/share/uv/python/cpython-3.11.11-macos-aarch64-none/lib/python3.11/asyncio/base_events.py\", line 654, in run_until_complete\n    return future.result()\n           ^^^^^^^^^^^^^^^\n  File \"/Users/egv/dev/yandex/ai_in_action_2/orchestrator/main.py\", line 8, in call_mcp_tool\n    session = ClientSession(\"http://localhost:5000\")\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: ClientSession.__init__() missing 1 required positional argument: 'write_stream'"
+            }
+          }
+        },
+        {
+          "display": "Traceback (most recent call last):\n  File \"/Users/egv/dev/yandex/ai_in_action_2/orchestrator/main.py\", line 2, in <module>\n    from mcp.client import ClientSession\nImportError: cannot import name 'ClientSession' from 'mcp.client' (/Users/egv/dev/yandex/ai_in_action_2/.venv/lib/python3.11/site-packages/mcp/client/__init__.py)",
+          "pastedContents": {}
+        },
+        {
+          "display": "not mcp server, just mcp package. Server should be done lke this: https://github.com/modelcontextprotocol/python-sdk/blob/main/examples/servers/simple-tool/mcp_simple_tool/server.py",
+          "pastedContents": {}
+        },
+        {
+          "display": "this hould be MCP server",
+          "pastedContents": {}
+        },
+        {
+          "display": "what are you trying to do",
+          "pastedContents": {}
+        },
+        {
+          "display": "use uv for python ",
+          "pastedContents": {}
+        },
+        {
+          "display": "Traceback (most recent call last):\n  File \"/Users/egv/dev/yandex/ai_in_action_2/orchestrator/main.py\", line 2, in <module>\n    from mcp.client.lowlevel import Client as MCPClient\nModuleNotFoundError: No module named 'mcp.client.lowlevel'",
+          "pastedContents": {}
+        },
+        {
+          "display": "we need to keep that implementation",
+          "pastedContents": {}
+        },
+        {
+          "display": "  File \"/Users/egv/dev/yandex/ai_in_action_2/mcp_server/knowledge_base.py\", line 1, in <module>\n    from mcp.server.lowlevel import Server\nModuleNotFoundError: No module named 'mcp'",
+          "pastedContents": {}
+        },
+        {
+          "display": "INFO:werkzeug:Press CTRL+C to quit\nTraceback (most recent call last):\n  File \"/Users/egv/dev/yandex/ai_in_action_2/orchestrator/main.py\", line 2, in <module>\n    from mcp.client.lowlevel import Client as MCPClient\nModuleNotFoundError: No module named 'mcp'",
+          "pastedContents": {}
+        },
+        {
+          "display": "rewrite mcp server like this: https://github.com/modelcontextprotocol/python-sdk/blob/main/examples/servers/simple-tool/mcp_simple_tool/server.py",
+          "pastedContents": {}
+        },
+        {
+          "display": "we need to use the mcpclient, not raw https requests",
+          "pastedContents": {}
+        },
+        {
+          "display": "[Pasted text #1 +28 lines]",
+          "pastedContents": {
+            "1": {
+              "id": 1,
+              "type": "text",
+              "content": "INFO:werkzeug:Press CTRL+C to quit\nINFO:httpx:HTTP Request: POST http://localhost:5000/tools/get_fact \"HTTP/1.1 403 Forbidden\"\nERROR:python_a2a.mcp.client:HTTP error calling MCP tool get_fact: Client error '403 Forbidden' for url 'http://localhost:5000/tools/get_fact'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403\nTraceback (most recent call last):\n  File \"/Users/egv/dev/yandex/ai_in_action_2/.venv/lib/python3.11/site-packages/python_a2a/mcp/client.py\", line 246, in call_tool\n    response.raise_for_status()\n  File \"/Users/egv/dev/yandex/ai_in_action_2/.venv/lib/python3.11/site-packages/httpx/_models.py\", line 829, in raise_for_status\n    raise HTTPStatusError(message, request=request, response=self)\nhttpx.HTTPStatusError: Client error '403 Forbidden' for url 'http://localhost:5000/tools/get_fact'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/Users/egv/dev/yandex/ai_in_action_2/orchestrator/main.py\", line 23, in <module>\n    main()\n  File \"/Users/egv/dev/yandex/ai_in_action_2/orchestrator/main.py\", line 9, in main\n    fact = mcp_client.call_tool_sync(\"get_fact\", query=query)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/egv/dev/yandex/ai_in_action_2/.venv/lib/python3.11/site-packages/python_a2a/mcp/client.py\", line 353, in call_tool_sync\n    return loop.run_until_complete(self.call_tool(tool_name, **params))\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/egv/.local/share/uv/python/cpython-3.11.11-macos-aarch64-none/lib/python3.11/asyncio/base_events.py\", line 654, in run_until_complete\n    return future.result()\n           ^^^^^^^^^^^^^^^\n  File \"/Users/egv/dev/yandex/ai_in_action_2/.venv/lib/python3.11/site-packages/python_a2a/mcp/client.py\", line 284, in call_tool\n    raise MCPToolError(f\"HTTP error calling MCP tool {tool_name}: {e.response.status_code} - {e.response.text}\")\npython_a2a.mcp.client.MCPToolError: HTTP error calling MCP tool get_fact: 403 -"
+            }
+          }
+        },
+        {
+          "display": "INFO:werkzeug:Press CTRL+C to quit\nTraceback (most recent call last):\n  File \"/Users/egv/dev/yandex/ai_in_action_2/orchestrator/main.py\", line 23, in <module>\n    main()\n  File \"/Users/egv/dev/yandex/ai_in_action_2/orchestrator/main.py\", line 9, in main\n    fact = mcp_client.call(\"get_fact\", query=query)\n           ^^^^^^^^^^^^^^^\nAttributeError: 'MCPClient' object has no attribute 'call'",
+          "pastedContents": {}
+        },
+        {
+          "display": "use uv for everything python",
+          "pastedContents": {}
+        },
+        {
+          "display": "this is no way solana related",
+          "pastedContents": {}
+        },
+        {
+          "display": "plesse implement mcp client like this https://github.com/modelcontextprotocol/python-sdk/tree/main/examples , not with raw requests lib",
+          "pastedContents": {}
+        },
+        {
+          "display": "while running i get \"[Pasted text #1 +24 lines]\"",
+          "pastedContents": {
+            "1": {
+              "id": 1,
+              "type": "text",
+              "content": "Traceback (most recent call last):\n  File \"/Users/egv/dev/yandex/ai_in_action_2/.venv/lib/python3.11/site-packages/requests/models.py\", line 974, in json\n    return complexjson.loads(self.text, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/egv/.local/share/uv/python/cpython-3.11.11-macos-aarch64-none/lib/python3.11/json/__init__.py\", line 346, in loads\n    return _default_decoder.decode(s)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/egv/.local/share/uv/python/cpython-3.11.11-macos-aarch64-none/lib/python3.11/json/decoder.py\", line 337, in decode\n    obj, end = self.raw_decode(s, idx=_w(s, 0).end())\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/egv/.local/share/uv/python/cpython-3.11.11-macos-aarch64-none/lib/python3.11/json/decoder.py\", line 355, in raw_decode\n    raise JSONDecodeError(\"Expecting value\", s, err.value) from None\njson.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/Users/egv/dev/yandex/ai_in_action_2/orchestrator/main.py\", line 22, in <module>\n    main()\n  File \"/Users/egv/dev/yandex/ai_in_action_2/orchestrator/main.py\", line 8, in main\n    fact = resp.json().get(\"result\", \"Unknown\")\n           ^^^^^^^^^^^\n  File \"/Users/egv/dev/yandex/ai_in_action_2/.venv/lib/python3.11/site-packages/requests/models.py\", line 978, in json\n    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)\nrequests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+            }
+          }
+        },
+        {
+          "display": "source .venv/bin/activate && uv run scripts/run_all.py",
+          "pastedContents": {}
+        },
+        {
+          "display": "init",
+          "pastedContents": {}
+        }
+      ],
+      "dontCrawlDirectory": false,
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "enableAllProjectMcpServers": false,
+      "hasTrustDialogAccepted": true,
+      "ignorePatterns": [],
+      "projectOnboardingSeenCount": 3,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "lastCost": 0.07624424999999999,
+      "lastAPIDuration": 33420,
+      "lastDuration": 72632589,
+      "lastLinesAdded": 68,
+      "lastLinesRemoved": 0,
+      "lastTotalInputTokens": 233,
+      "lastTotalOutputTokens": 1417,
+      "lastTotalCacheCreationInputTokens": 4793,
+      "lastTotalCacheReadInputTokens": 124685,
+      "lastSessionId": "0eaf5cdf-c8f9-4b50-900e-f18aece55b95"
+    },
+    "/Users/egv/dev/yandex/YandexBot": {
+      "allowedTools": [],
+      "history": [
+        {
+          "display": "what is this repo?",
+          "pastedContents": {}
+        }
+      ],
+      "dontCrawlDirectory": false,
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "enableAllProjectMcpServers": false,
+      "hasTrustDialogAccepted": true,
+      "ignorePatterns": [],
+      "projectOnboardingSeenCount": 1,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "exampleFiles": [
+        "HumanMessage.java",
+        "YandexBotUpdateHandler.java",
+        "YandexBotService.java",
+        "UserState.java",
+        "YandexDiskUtility.java"
+      ],
+      "exampleFilesGeneratedAt": 1747857550997,
+      "lastCost": 0.06567075,
+      "lastAPIDuration": 22693,
+      "lastDuration": 259353,
+      "lastLinesAdded": 0,
+      "lastLinesRemoved": 0,
+      "lastTotalInputTokens": 1428,
+      "lastTotalOutputTokens": 320,
+      "lastTotalCacheCreationInputTokens": 14117,
+      "lastTotalCacheReadInputTokens": 25008,
+      "lastSessionId": "7ea81e53-9e5f-457e-ac9e-a342a935aaa9"
+    },
+    "/Users/egv/dev/yandex/dino-bot": {
+      "allowedTools": [],
+      "history": [
+        {
+          "display": "commit and push",
+          "pastedContents": {}
+        },
+        {
+          "display": "please add .DS_Store files to .gitignore and remove those files from repository",
+          "pastedContents": {}
+        },
+        {
+          "display": "please modify code so that no more than 100 files are uploaded",
+          "pastedContents": {}
+        },
+        {
+          "display": "commit and push",
+          "pastedContents": {}
+        },
+        {
+          "display": "look how search index is created in @test_rag.py and use this method in main bot project",
+          "pastedContents": {}
+        },
+        {
+          "display": "in @test_rag.py limit number of uploaded files to 99 and add console logging of uploaded files",
+          "pastedContents": {}
+        },
+        {
+          "display": "please fix @test_rag.py ",
+          "pastedContents": {}
+        },
+        {
+          "display": "how do i upload updated fies into index?",
+          "pastedContents": {}
+        },
+        {
+          "display": "please go through all md files in @data and add (or modify existing) header based on directory names and file content to descirbe what's inside. Example: data/Africa/Angola will be \"Region: Africa, Country: Angola\"",
+          "pastedContents": {}
+        },
+        {
+          "display": "please do the followoing:\n1. Analyze md files in data directory. Those are files with info for employees in different countries. They are groupped by countries (directories) and topics (file names).  Find out what topics are covered in them.\n2. Make new file and directory structure, better suitable for indexing and populate in with existing data, refirmatting it and adding aditional metadata",
+          "pastedContents": {}
+        },
+        {
+          "display": "plese look inside md files and fix formatting and everything so they will be better suited for index",
+          "pastedContents": {}
+        },
+        {
+          "display": "2025-05-29 16:58:24,382 - bot - INFO - User jewpacabra asked: How can I get travel policy?\n2025-05-29 16:58:26,727 - bot - ERROR - Error processing query: 'AsyncRuns' object has no attribute 'create'\n",
+          "pastedContents": {}
+        },
+        {
+          "display": "2025-05-29 16:49:45,619 - bot - INFO - User jewpacabra asked: How can I get travel policy?\n2025-05-29 16:49:46,950 - bot - ERROR - Error processing query: 'AsyncThread' object has no attribute 'run'\n",
+          "pastedContents": {}
+        },
+        {
+          "display": "[Pasted text #1 +23 lines]",
+          "pastedContents": {
+            "1": {
+              "id": 1,
+              "type": "text",
+              "content": " uv run python main.py\n2025-05-29 16:48:13,396 - bot - INFO - Starting bot...\n2025-05-29 16:48:14,061 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7975553085:AAFwATivjlXmj7-zpPdmL_QnIPGRjtOJjiI/getMe \"HTTP/1.1 200 OK\"\n2025-05-29 16:48:14,062 - bot - INFO - Initializing Yandex services...\n📁 Setting up search index...\n\n✓ Found existing search index: None (ID: fvtqhdgdp2d43i61epjd)\n\n✅ Using existing search index - no updates needed!\n2025-05-29 16:48:15,288 - bot - INFO - Using existing search index: fvtqhdgdp2d43i61epjd\n🤖 Setting up assistant...\n\n✓ Found existing assistant: None (ID: fvtc4emhtvjek0oipdte)\n\n⚠️  Existing assistant uses different search index - creating new one\n🤖 Creating assistant with search capabilities...\nFatal error: <AioRpcError of RPC that terminated with:\n        code = StatusCode.PERMISSION_DENIED\n        details = \"Permission CREATE denied to folder fvtqhdgdp2d43i61epjd. You do not have permissions. You need the ai.assistants.editor, editor, or admin role for the folder in question. Please contact your cloud administrator to get an appropriate role.\"\n        debug_error_string = \"UNKNOWN:Error received from peer  {grpc_message:\"Permission CREATE denied to folder fvtqhdgdp2d43i61epjd. You do not have permissions. You need the ai.assistants.editor, editor, or admin role for the folder in question. Please contact your cloud administrator to get an appropriate role.\", grpc_status:7, created_time:\"2025-05-29T16:48:16.178233+05:00\"}\"\n        endpoint = \"assistant.api.cloud.yandex.net:443\"\n        stub_class = AssistantServiceStub\n>\n"
+            }
+          }
+        },
+        {
+          "display": "ok, now lets breate index and assitant on top of that index",
+          "pastedContents": {}
+        },
+        {
+          "display": "lets do the following:\n1. remove unnecessary python files\n2. split index loading and agent creation and bot itself into sepaarte files",
+          "pastedContents": {}
+        },
+        {
+          "display": "[Pasted text #1 +25 lines]",
+          "pastedContents": {
+            "1": {
+              "id": 1,
+              "type": "text",
+              "content": "📚 Creating search index with 106 files...\nTraceback (most recent call last):\n  File \"/Users/egv/dev/yandex/dino-bot/bot_yandex.py\", line 203, in <module>\n    main()\n  File \"/Users/egv/dev/yandex/dino-bot/bot_yandex.py\", line 199, in main\n    application.run_polling(allowed_updates=Update.ALL_TYPES)\n  File \"/Users/egv/dev/yandex/dino-bot/.venv/lib/python3.11/site-packages/telegram/ext/_application.py\", line 832, in run_polling\n    return self.__run(\n           ^^^^^^^^^^^\n  File \"/Users/egv/dev/yandex/dino-bot/.venv/lib/python3.11/site-packages/telegram/ext/_application.py\", line 1044, in __run\n    loop.run_until_complete(self.post_init(self))\n  File \"/Users/egv/.local/share/uv/python/cpython-3.11.11-macos-aarch64-none/lib/python3.11/asyncio/base_events.py\", line 654, in run_until_complete\n    return future.result()\n           ^^^^^^^^^^^^^^^\n  File \"/Users/egv/dev/yandex/dino-bot/bot_yandex.py\", line 167, in post_init\n    await initialize_assistant()\n  File \"/Users/egv/dev/yandex/dino-bot/bot_yandex.py\", line 40, in initialize_assistant\n    setup_result = await assistant_manager.setup()\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/egv/dev/yandex/dino-bot/yandex_search.py\", line 292, in setup\n    await self.create_search_index()\n  File \"/Users/egv/dev/yandex/dino-bot/yandex_search.py\", line 176, in create_search_index\n    operation = await self.sdk.search_indexes.create_deferred(\n                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: AsyncSearchIndexes.create_deferred() got an unexpected keyword argument 'file_ids'\n"
+            }
+          }
+        },
+        {
+          "display": "Traceback (most recent call last):\n  File \"/Users/egv/dev/yandex/dino-bot/bot_yandex.py\", line 9, in <module>\n    from yandex_search import YandexSearchManager\n  File \"/Users/egv/dev/yandex/dino-bot/yandex_search.py\", line 140\n    uploaded_files[file_key] = {\nIndentationError: unexpected indent\n",
+          "pastedContents": {}
+        },
+        {
+          "display": "https://github.com/yandex-cloud/yandex-cloud-ml-sdk/blob/master/examples/sync/assistants/assistant_with_search_index.py here is the example on how to make assistant and index",
+          "pastedContents": {}
+        },
+        {
+          "display": "[Pasted text #1 +21 lines]",
+          "pastedContents": {
+            "1": {
+              "id": 1,
+              "type": "text",
+              "content": "ex.py\", line 199, in main\n    application.run_polling(allowed_updates=Update.ALL_TYPES)\n  File \"/Users/egv/dev/yandex/dino-bot/.venv/lib/python3.11/site-packages/telegram/ext/_application.py\", line 832, in run_polling\n    return self.__run(\n           ^^^^^^^^^^^\n  File \"/Users/egv/dev/yandex/dino-bot/.venv/lib/python3.11/site-packages/telegram/ext/_application.py\", line 1044, in __run\n    loop.run_until_complete(self.post_init(self))\n  File \"/Users/egv/.local/share/uv/python/cpython-3.11.11-macos-aarch64-none/lib/python3.11/asyncio/base_events.py\", line 654, in run_until_complete\n    return future.result()\n           ^^^^^^^^^^^^^^^\n  File \"/Users/egv/dev/yandex/dino-bot/bot_yandex.py\", line 167, in post_init\n    await initialize_assistant()\n  File \"/Users/egv/dev/yandex/dino-bot/bot_yandex.py\", line 40, in initialize_assistant\n    setup_result = await assistant_manager.setup()\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/egv/dev/yandex/dino-bot/yandex_search.py\", line 290, in setup\n    await self.create_search_index()\n  File \"/Users/egv/dev/yandex/dino-bot/yandex_search.py\", line 175, in create_search_index\n    async with self.sdk.search_indexes.create(\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'AsyncSearchIndexes' object has no attribute 'create'\n"
+            }
+          }
+        },
+        {
+          "display": "📤 Uploading Africa/Côte d'Ivoire.md...\n✗ Failed to upload Africa/Côte d'Ivoire.md: AsyncFiles.upload() got an unexpected keyword argument 'content'\n📤 Uploading Africa/Cameroon.md...\n",
+          "pastedContents": {}
+        },
+        {
+          "display": "how do i run this bot?",
+          "pastedContents": {}
+        },
+        {
+          "display": "in @bot_yandex.py please add login to build index from md files in @data/ ",
+          "pastedContents": {}
+        },
+        {
+          "display": "please look into @data/ and convert all docx files to markdown",
+          "pastedContents": {}
+        },
+        {
+          "display": "commit and push",
+          "pastedContents": {}
+        },
+        {
+          "display": "will it upload new files if I add them? Or only changes ones?",
+          "pastedContents": {}
+        },
+        {
+          "display": "can we determine if we have already uploaded files to the assistant so we won't do it again?",
+          "pastedContents": {}
+        },
+        {
+          "display": "look here how to do search in multiple files https://github.com/yandex-cloud/yandex-cloud-ml-sdk/blob/master/examples/sync/assistants/assistant_with_search_index.py and rewrite our bot to do so. Here's how you should initialize SDK: sdk = AsyncYCloudML(folder_id='b1g0rh85nam1ppb4o7j3', auth=\"AQVNwHqljoMZ3MfOmq54kzYq3qHz-c7TabpDxD9x\") stor4 folder id and auth token in .env",
+          "pastedContents": {}
+        },
+        {
+          "display": "/terminal-setup ",
+          "pastedContents": {}
+        },
+        {
+          "display": "commit and push",
+          "pastedContents": {}
+        },
+        {
+          "display": "use username in group_id so I will be able to search for it in dashboard",
+          "pastedContents": {}
+        },
+        {
+          "display": "2025-05-22 23:52:47,176 - bot - ERROR - Error processing query: Runner.run() got an unexpected keyword argument 'trace_metadata'\n",
+          "pastedContents": {}
+        },
+        {
+          "display": "https://openai.github.io/openai-agents-python/tracing/ here is the docs on tracing",
+          "pastedContents": {}
+        },
+        {
+          "display": "undo last changes. You should update openai agents tracing, not adding console logs ",
+          "pastedContents": {}
+        },
+        {
+          "display": "plesse update tracing so it uses username of user who is asking the question as id, so they can be distinguished in the console",
+          "pastedContents": {}
+        },
+        {
+          "display": "Please update the system prompt of the agent to specify the following:\n\n- This is a chatbot for answering questions from employees.\n- It works for a single employee, so it shouldn't reference general laws or anything like that.\n- It should use only the data provided in files inside the data directory.\n- It should be as specific as possible.\n- The answers shouldn't be in the form of \"my data says this,\" but you should also consult with the general staff or something similar.\n- The answer must be concise, clear, and straightforward.\n- There should be only one option in the answer.",
+          "pastedContents": {}
+        },
+        {
+          "display": "2025-05-22 23:37:11,783 - bot - INFO - Processing query: what are employee's benefits?\n2025-05-22 23:37:12,845 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses \"HTTP/1.1 200 OK\"\n2025-05-22 23:37:14,999 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses \"HTTP/1.1 200 OK\"\n2025-05-22 23:37:16,548 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses \"HTTP/1.1 200 OK\"\n2025-05-22 23:37:16,552 - bot - ERROR - Error processing query: Max turns (3) exceeded\n",
+          "pastedContents": {}
+        },
+        {
+          "display": "2025-05-22 23:34:29,320 - bot - ERROR - Error processing query: type object 'Runner' has no attribute 'run_async'\n",
+          "pastedContents": {}
+        },
+        {
+          "display": "Fatal error: set_tracing_disabled() missing 1 required positional argument: 'disabled'\n\ni get this now.\n\nyou know what, lets revert and use OpenAI, gpt4 mini model.",
+          "pastedContents": {}
+        },
+        {
+          "display": "Fatal error: Agent.__init__() got an unexpected keyword argument 'client'\n this is what I gen when running",
+          "pastedContents": {}
+        },
+        {
+          "display": "  File \"/Users/egv/dev/yandex/dino-bot/main.py\", line 5, in <module>\n    from bot import main\n  File \"/Users/egv/dev/yandex/dino-bot/bot.py\", line 24, in <module>\n    deepseek_client = AsyncOpenAI(\n                      ^^^^^^^^^^^^\n  File \"/Users/egv/dev/yandex/dino-bot/.venv/lib/python3.11/site-packages/openai/_client.py\", line 427, in __init__\n    raise OpenAIError(\nopenai.OpenAIError: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable\n\nI get this when I run the bot. Why do we need OpenAI key if we are usifng only Deekseek?",
+          "pastedContents": {}
+        },
+        {
+          "display": "hey, I have noticed that you have file names and descriptoions hardcoded in @knowledge_base.py . No hardcode, this data will be modified often",
+          "pastedContents": {}
+        },
+        {
+          "display": "I already have .env file ",
+          "pastedContents": {}
+        },
+        {
+          "display": "Okay, now let's do the following. Please implement a Telegram bot that will wait for the user's question and use files in the \"data\" directory to find an answer to this question. If the bot will not be able to find an answer, it should tell so honestly and not invent it. For imlementation use DeepSeek LLM. The Deepseek API key is stored in the .env file. The Telegram bot API key is also stored in the .env file. For implementing the agent, please use the OpenAI agents Python framework. Ultrathink on how to do it and don't hold back, I trust you!",
+          "pastedContents": {}
+        },
+        {
+          "display": "Okay, now let's do the following. Please implement a Telegram bot that will wait for the user's question and use files in the \"data\" directory to find an answer to this question. For this, use deepseek llm. The Deepseek API key is stored in the .env file. The Telegram bot API key is also stored in the .env file. For implementing the agent, please use the OpenAI agents Python framework. Ultrathink on how to do it and don't hold back, I trust you!",
+          "pastedContents": {}
+        },
+        {
+          "display": "commit and push",
+          "pastedContents": {}
+        },
+        {
+          "display": "yes, please",
+          "pastedContents": {}
+        },
+        {
+          "display": "please look at files in @data/ . Those are intentetd to be used as memory files for LLM so it can consult them and answer questions based on data contained inside. Please review them and give me advice on how to improve those files. Do not tke any action on them yet.",
+          "pastedContents": {}
+        },
+        {
+          "display": "!mkdir data",
+          "pastedContents": {}
+        },
+        {
+          "display": "commit and push",
+          "pastedContents": {}
+        },
+        {
+          "display": "!nvim CLAUDE.md",
+          "pastedContents": {}
+        },
+        {
+          "display": "/init ",
+          "pastedContents": {}
+        },
+        {
+          "display": "init",
+          "pastedContents": {}
+        }
+      ],
+      "dontCrawlDirectory": false,
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "hasTrustDialogAccepted": true,
+      "ignorePatterns": [],
+      "projectOnboardingSeenCount": 4,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "hasCompletedProjectOnboarding": true,
+      "exampleFiles": [
+        "bot.py",
+        "main.py",
+        "CLAUDE.md",
+        "README.md",
+        "pyproject.toml"
+      ],
+      "exampleFilesGeneratedAt": 1748490775540,
+      "lastCost": 0.27433159999999995,
+      "lastAPIDuration": 109680,
+      "lastDuration": 186172,
+      "lastLinesAdded": 9,
+      "lastLinesRemoved": 0,
+      "lastTotalInputTokens": 13674,
+      "lastTotalOutputTokens": 2399,
+      "lastTotalCacheCreationInputTokens": 45572,
+      "lastTotalCacheReadInputTokens": 211834,
+      "lastSessionId": "b4fa20d0-7aa2-4a27-9ef8-e149c0ff69d1"
+    },
+    "/Users/egv/dev/codefest/solana-ftw-codefest-2025": {
+      "allowedTools": [],
+      "history": [
+        {
+          "display": "commit and push",
+          "pastedContents": {}
+        },
+        {
+          "display": "in @examples/ please make README files for each blockchain explainitng how to kickstart development. Docs must be in rusian language",
+          "pastedContents": {}
+        },
+        {
+          "display": "please continue implementing the examples",
+          "pastedContents": {}
+        },
+        {
+          "display": "please look into @full_text.md. This is more or less text for my keynote on comparison of solana, etherium and ton blockchains.\n\nI need you to generate code examples for it. There should be 3 examples for each blockchain: hello world, counter and nft minting. Please make directory \"examples\", under it should be directory for each of the samples and inside that separate directory for each blockhain implementation ",
+          "pastedContents": {}
+        },
+        {
+          "display": "/init ",
+          "pastedContents": {}
+        },
+        {
+          "display": "/model sonnet",
+          "pastedContents": {}
+        },
+        {
+          "display": "/mcp ",
+          "pastedContents": {}
+        },
+        {
+          "display": "/cost ",
+          "pastedContents": {}
+        },
+        {
+          "display": "/model ",
+          "pastedContents": {}
+        },
+        {
+          "display": "/cost ",
+          "pastedContents": {}
+        },
+        {
+          "display": "/model ",
+          "pastedContents": {}
+        },
+        {
+          "display": "nice, please commit and push",
+          "pastedContents": {}
+        },
+        {
+          "display": "please generate .gitignore file for general-purpose repository. It will containd pdfs, md files, as well as rust, soludity and func code",
+          "pastedContents": {}
+        }
+      ],
+      "dontCrawlDirectory": false,
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": true,
+      "projectOnboardingSeenCount": 4,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "hasCompletedProjectOnboarding": true,
+      "lastCost": 0.7722460500000005,
+      "lastAPIDuration": 462074,
+      "lastDuration": 670743,
+      "lastLinesAdded": 1551,
+      "lastLinesRemoved": 0,
+      "lastTotalInputTokens": 12267,
+      "lastTotalOutputTokens": 22282,
+      "lastTotalCacheCreationInputTokens": 51999,
+      "lastTotalCacheReadInputTokens": 809188,
+      "lastSessionId": "53497720-7aad-4e87-9904-5183d625a445"
+    },
+    "/Users/egv/dev/yandex/dino-bot/data": {
+      "allowedTools": [],
+      "history": [],
+      "dontCrawlDirectory": false,
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": false,
+      "ignorePatterns": [],
+      "projectOnboardingSeenCount": 1,
+      "hasClaudeMdExternalIncludesApproved": true,
+      "hasClaudeMdExternalIncludesWarningShown": true,
+      "exampleFiles": [
+        "bot.py",
+        "main.py",
+        "CLAUDE.md",
+        "README.md",
+        "pyproject.toml"
+      ],
+      "exampleFilesGeneratedAt": 1748672897996,
+      "lastCost": 0.00028000000000000003,
+      "lastAPIDuration": 1756,
+      "lastDuration": 14315,
+      "lastLinesAdded": 0,
+      "lastLinesRemoved": 0,
+      "lastTotalInputTokens": 225,
+      "lastTotalOutputTokens": 25,
+      "lastTotalCacheCreationInputTokens": 0,
+      "lastTotalCacheReadInputTokens": 0,
+      "lastSessionId": "2f33cf48-b606-46b6-ac79-a18137bf387d"
+    }
+  },
+  "cachedChangelog": "# Changelog\n\n## 1.1.0\n\n- Added markdown table support\n- Improved streaming performance\n\n## 1.0.8\n\n- Fixed Vertex AI region fallback when using CLOUD_ML_REGION\n- Increased default otel interval from 1s -> 5s\n- Fixed edge cases where MCP_TIMEOUT and MCP_TOOL_TIMEOUT weren't being respected\n- Fixed a regression where search tools unnecessarily asked for permissions\n- Added support for triggering thinking non-English languages\n- Improved compacting UI\n\n## 1.0.7\n\n- Renamed /allowed-tools -> /permissions\n- Migrated allowedTools and ignorePatterns from .claude.json -> settings.json\n- Deprecated claude config commands in favor of editing settings.json\n- Fixed a bug where --dangerously-skip-permissions sometimes didn't work in --print mode\n- Improved error handling for /install-github-app\n- Bugfixes, UI polish, and tool reliability improvements\n\n## 1.0.6\n\n- Improved edit reliability for tab-indented files\n- Respect CLAUDE_CONFIG_DIR everywhere\n- Reduced unnecessary tool permission prompts\n- Added support for symlinks in @file typeahead\n- Bugfixes, UI polish, and tool reliability improvements\n\n## 1.0.4\n\n- Fixed a bug where MCP tool errors weren't being parsed correctly\n\n## 1.0.1\n\n- Added `DISABLE_INTERLEAVED_THINKING` to give users the option to opt out of interleaved thinking.\n- Improved model references to show provider-specific names (Sonnet 3.7 for Bedrock, Sonnet 4 for Console)\n- Updated documentation links and OAuth process descriptions\n\n## 1.0.0\n\n- Claude Code is now generally available\n- Introducing Sonnet 4 and Opus 4 models\n\n## 0.2.125\n\n- Breaking change: Bedrock ARN passed to `ANTHROPIC_MODEL` or `ANTHROPIC_SMALL_FAST_MODEL` should no longer contain an escaped slash (specify `/` instead of `%2F`)\n- Removed `DEBUG=true` in favor of `ANTHROPIC_LOG=debug`, to log all requests\n\n## 0.2.117\n\n- Breaking change: --print JSON output now returns nested message objects, for forwards-compatibility as we introduce new metadata fields\n- Introduced settings.cleanupPeriodDays\n- Introduced CLAUDE_CODE_API_KEY_HELPER_TTL_MS env var\n- Introduced --debug mode\n\n## 0.2.108\n\n- You can now send messages to Claude while it works to steer Claude in real-time\n- Introduced BASH_DEFAULT_TIMEOUT_MS and BASH_MAX_TIMEOUT_MS env vars\n- Fixed a bug where thinking was not working in -p mode\n- Fixed a regression in /cost reporting\n- Deprecated MCP wizard interface in favor of other MCP commands\n- Lots of other bugfixes and improvements\n\n## 0.2.107\n\n- CLAUDE.md files can now import other files. Add @path/to/file.md to ./CLAUDE.md to load additional files on launch\n\n## 0.2.106\n\n- MCP SSE server configs can now specify custom headers\n- Fixed a bug where MCP permission prompt didn't always show correctly\n\n## 0.2.105\n\n- Claude can now search the web\n- Moved system & account status to /status\n- Added word movement keybindings for Vim\n- Improved latency for startup, todo tool, and file edits\n\n## 0.2.102\n\n- Improved thinking triggering reliability\n- Improved @mention reliability for images and folders\n- You can now paste multiple large chunks into one prompt\n\n## 0.2.100\n\n- Fixed a crash caused by a stack overflow error\n- Made db storage optional; missing db support disables --continue and --resume\n\n## 0.2.98\n\n- Fixed an issue where auto-compact was running twice\n\n## 0.2.96\n\n- Claude Code can now also be used with a Claude Max subscription (https://claude.ai/upgrade)\n\n## 0.2.93\n\n- Resume conversations from where you left off from with \"claude --continue\" and \"claude --resume\"\n- Claude now has access to a Todo list that helps it stay on track and be more organized\n\n## 0.2.82\n\n- Added support for --disallowedTools\n- Renamed tools for consistency: LSTool -> LS, View -> Read, etc.\n\n## 0.2.75\n\n- Hit Enter to queue up additional messages while Claude is working\n- Drag in or copy/paste image files directly into the prompt\n- @-mention files to directly add them to context\n- Run one-off MCP servers with `claude --mcp-config <path-to-file>`\n- Improved performance for filename auto-complete\n\n## 0.2.74\n\n- Added support for refreshing dynamically generated API keys (via apiKeyHelper), with a 5 minute TTL\n- Task tool can now perform writes and run bash commands\n\n## 0.2.72\n\n- Updated spinner to indicate tokens loaded and tool usage\n\n## 0.2.70\n\n- Network commands like curl are now available for Claude to use\n- Claude can now run multiple web queries in parallel\n- Pressing ESC once immediately interrupts Claude in Auto-accept mode\n\n## 0.2.69\n\n- Fixed UI glitches with improved Select component behavior\n- Enhanced terminal output display with better text truncation logic\n\n## 0.2.67\n\n- Shared project permission rules can be saved in .claude/settings.json\n\n## 0.2.66\n\n- Print mode (-p) now supports streaming output via --output-format=stream-json\n- Fixed issue where pasting could trigger memory or bash mode unexpectedly\n\n## 0.2.63\n\n- Fixed an issue where MCP tools were loaded twice, which caused tool call errors\n\n## 0.2.61\n\n- Navigate menus with vim-style keys (j/k) or bash/emacs shortcuts (Ctrl+n/p) for faster interaction\n- Enhanced image detection for more reliable clipboard paste functionality\n- Fixed an issue where ESC key could crash the conversation history selector\n\n## 0.2.59\n\n- Copy+paste images directly into your prompt\n- Improved progress indicators for bash and fetch tools\n- Bugfixes for non-interactive mode (-p)\n\n## 0.2.54\n\n- Quickly add to Memory by starting your message with '#'\n- Press ctrl+r to see full output for long tool results\n- Added support for MCP SSE transport\n\n## 0.2.53\n\n- New web fetch tool lets Claude view URLs that you paste in\n- Fixed a bug with JPEG detection\n\n## 0.2.50\n\n- New MCP \"project\" scope now allows you to add MCP servers to .mcp.json files and commit them to your repository\n\n## 0.2.49\n\n- Previous MCP server scopes have been renamed: previous \"project\" scope is now \"local\" and \"global\" scope is now \"user\"\n\n## 0.2.47\n\n- Press Tab to auto-complete file and folder names\n- Press Shift + Tab to toggle auto-accept for file edits\n- Automatic conversation compaction for infinite conversation length (toggle with /config)\n\n## 0.2.44\n\n- Ask Claude to make a plan with thinking mode: just say 'think' or 'think harder' or even 'ultrathink'\n\n## 0.2.41\n\n- MCP server startup timeout can now be configured via MCP_TIMEOUT environment variable\n- MCP server startup no longer blocks the app from starting up\n\n## 0.2.37\n\n- New /release-notes command lets you view release notes at any time\n- `claude config add/remove` commands now accept multiple values separated by commas or spaces\n\n## 0.2.36\n\n- Import MCP servers from Claude Desktop with `claude mcp add-from-claude-desktop`\n- Add MCP servers as JSON strings with `claude mcp add-json <n> <json>`\n\n## 0.2.34\n\n- Vim bindings for text input - enable with /vim or /config\n\n## 0.2.32\n\n- Interactive MCP setup wizard: Run \"claude mcp add\" to add MCP servers with a step-by-step interface\n- Fix for some PersistentShell issues\n\n## 0.2.31\n\n- Custom slash commands: Markdown files in .claude/commands/ directories now appear as custom slash commands to insert prompts into your conversation\n- MCP debug mode: Run with --mcp-debug flag to get more information about MCP server errors\n\n## 0.2.30\n\n- Added ANSI color theme for better terminal compatibility\n- Fixed issue where slash command arguments weren't being sent properly\n- (Mac-only) API keys are now stored in macOS Keychain\n\n## 0.2.26\n\n- New /approved-tools command for managing tool permissions\n- Word-level diff display for improved code readability\n- Fuzzy matching for slash commands\n\n## 0.2.21\n\n- Fuzzy matching for /commands\n",
+  "changelogLastFetched": 1749030881383,
+  "maxSubscriptionNoticeCount": 1,
+  "hasAvailableMaxSubscription": false,
+  "hasUsedBackslashReturn": true,
+  "statsigModel": {
+    "firstParty": "claude-sonnet-4-20250514",
+    "bedrock": "us.anthropic.claude-sonnet-4-20250514-v1:0",
+    "vertex": "claude-sonnet-4@20250514"
+  },
+  "lastReleaseNotesSeen": "1.0.5",
+  "mcpServers": {
+    "Solana": {
+      "type": "sse",
+      "url": "https://mcp.solana.com/sse"
+    },
+    "context7": {
+      "command": "npx",
+      "args": ["-y", "@upstash/context7-mcp@latest"]
+    }
+  },
+  "oauthAccount": {
+    "accountUuid": "55247518-4c7c-4d55-a237-6eddd963ab01",
+    "emailAddress": "g.evstratov@gmail.com",
+    "organizationUuid": "dcd17caa-d46d-44bd-b1bb-1c935978671b",
+    "organizationRole": "admin",
+    "workspaceRole": null,
+    "organizationName": "g.evstratov@gmail.com's Organization"
+  },
+  "firstStartTime": "2025-05-13T16:44:15.497Z",
+  "claudeMaxTier": "not_max",
+  "shiftEnterKeyBindingInstalled": true,
+  "hasIdeOnboardingBeenShown": {
+    "vscode": true,
+    "ghostty": true
+  },
+  "subscriptionNoticeCount": 0,
+  "hasAvailableSubscription": false,
+  "fallbackAvailableWarningThreshold": 0.5
+}

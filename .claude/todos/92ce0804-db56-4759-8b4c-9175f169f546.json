@@ -1,0 +1,26 @@
+[
+  {
+    "content": "Find the EventClassifierAgent usage in __main__.py",
+    "status": "completed",
+    "priority": "high",
+    "id": "1"
+  },
+  {
+    "content": "Check EventClassifierAgent definition to understand required parameters",
+    "status": "completed",
+    "priority": "high",
+    "id": "2"
+  },
+  {
+    "content": "Fix the EventClassifierAgent instantiation error",
+    "status": "completed",
+    "priority": "high",
+    "id": "3"
+  },
+  {
+    "content": "Test the fix",
+    "status": "completed",
+    "priority": "high",
+    "id": "4"
+  }
+]

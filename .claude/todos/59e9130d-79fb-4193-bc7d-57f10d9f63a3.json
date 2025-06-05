@@ -1,0 +1,26 @@
+[
+  {
+    "content": "Analyze all markdown files to identify topics and patterns",
+    "status": "completed",
+    "priority": "high",
+    "id": "1"
+  },
+  {
+    "content": "Design new directory structure optimized for search",
+    "status": "completed",
+    "priority": "high",
+    "id": "2"
+  },
+  {
+    "content": "Create script to reorganize and reformat files",
+    "status": "completed",
+    "priority": "high",
+    "id": "3"
+  },
+  {
+    "content": "Implement new structure with proper metadata",
+    "status": "in_progress",
+    "priority": "high",
+    "id": "4"
+  }
+]

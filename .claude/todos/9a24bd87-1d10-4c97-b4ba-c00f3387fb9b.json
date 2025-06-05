@@ -1,0 +1,26 @@
+[
+  {
+    "content": "Create pyproject.toml file",
+    "status": "completed",
+    "priority": "high",
+    "id": "1"
+  },
+  {
+    "content": "Create a README.md file",
+    "status": "completed",
+    "priority": "medium",
+    "id": "2"
+  },
+  {
+    "content": "Set up the basic project structure",
+    "status": "in_progress",
+    "priority": "high",
+    "id": "3"
+  },
+  {
+    "content": "Initialize a virtual environment with uv",
+    "status": "pending",
+    "priority": "high",
+    "id": "4"
+  }
+]

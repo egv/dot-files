@@ -1,0 +1,32 @@
+[
+  {
+    "content": "Fix AttributeError: 'ClassificationOutputSchema' object has no attribute 'classification'",
+    "status": "completed",
+    "priority": "high",
+    "id": "1"
+  },
+  {
+    "content": "Check the ClassificationOutputSchema definition",
+    "status": "completed",
+    "priority": "high",
+    "id": "2"
+  },
+  {
+    "content": "Update the code that accesses classification_result.final_output.classification",
+    "status": "completed",
+    "priority": "high",
+    "id": "3"
+  },
+  {
+    "content": "Check the event_classifier agent implementation",
+    "status": "completed",
+    "priority": "high",
+    "id": "4"
+  },
+  {
+    "content": "Fix the classification access in __main__.py",
+    "status": "completed",
+    "priority": "high",
+    "id": "5"
+  }
+]

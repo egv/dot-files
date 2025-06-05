@@ -1,0 +1,14 @@
+[
+  {
+    "content": "Check if .gitignore exists and add .DS_Store pattern",
+    "status": "completed",
+    "priority": "high",
+    "id": "1"
+  },
+  {
+    "content": "Remove .DS_Store files from git repository",
+    "status": "completed",
+    "priority": "high",
+    "id": "2"
+  }
+]

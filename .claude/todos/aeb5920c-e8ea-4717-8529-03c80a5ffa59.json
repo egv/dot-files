@@ -1,0 +1,32 @@
+[
+  {
+    "content": "Add Yandex Cloud credentials to .env file",
+    "status": "completed",
+    "priority": "high",
+    "id": "1"
+  },
+  {
+    "content": "Install yandex-cloud-ml-sdk dependency",
+    "status": "completed",
+    "priority": "high",
+    "id": "2"
+  },
+  {
+    "content": "Create yandex_search.py module for file upload and search index",
+    "status": "completed",
+    "priority": "high",
+    "id": "3"
+  },
+  {
+    "content": "Update bot.py to use Yandex assistant instead of OpenAI",
+    "status": "completed",
+    "priority": "high",
+    "id": "4"
+  },
+  {
+    "content": "Test the bot with new search functionality",
+    "status": "completed",
+    "priority": "medium",
+    "id": "5"
+  }
+]

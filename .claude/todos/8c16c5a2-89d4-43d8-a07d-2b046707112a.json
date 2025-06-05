@@ -1,0 +1,32 @@
+[
+  {
+    "content": "Create separate http_server directory and move http_server.py into it",
+    "status": "in_progress",
+    "priority": "high",
+    "id": "1"
+  },
+  {
+    "content": "Create separate model files for OpenAI API models",
+    "status": "pending",
+    "priority": "high",
+    "id": "2"
+  },
+  {
+    "content": "Create handler module for ChatCompletionHandler",
+    "status": "pending",
+    "priority": "high",
+    "id": "3"
+  },
+  {
+    "content": "Update imports in main HTTP server file",
+    "status": "pending",
+    "priority": "medium",
+    "id": "4"
+  },
+  {
+    "content": "Update README with new project structure",
+    "status": "pending",
+    "priority": "medium",
+    "id": "5"
+  }
+]

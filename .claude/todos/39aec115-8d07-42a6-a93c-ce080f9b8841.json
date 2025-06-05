@@ -1,0 +1,20 @@
+[
+  {
+    "content": "Modify event finder to find at least 10 events",
+    "status": "completed",
+    "priority": "high",
+    "id": "28"
+  },
+  {
+    "content": "Update search strategy to make multiple queries",
+    "status": "completed",
+    "priority": "high",
+    "id": "29"
+  },
+  {
+    "content": "Test with multiple event searches",
+    "status": "completed",
+    "priority": "high",
+    "id": "30"
+  }
+]

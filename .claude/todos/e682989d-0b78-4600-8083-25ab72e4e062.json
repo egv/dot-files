@@ -1,0 +1,32 @@
+[
+  {
+    "content": "Create new http_server directory and move http_server.py into it",
+    "status": "completed",
+    "priority": "high",
+    "id": "1"
+  },
+  {
+    "content": "Extract model definitions into separate models.py file",
+    "status": "completed",
+    "priority": "high",
+    "id": "2"
+  },
+  {
+    "content": "Update imports in the refactored files",
+    "status": "in_progress",
+    "priority": "high",
+    "id": "3"
+  },
+  {
+    "content": "Update README.md with new project layout",
+    "status": "pending",
+    "priority": "medium",
+    "id": "4"
+  },
+  {
+    "content": "Update any other files that import from http_server.py",
+    "status": "pending",
+    "priority": "medium",
+    "id": "5"
+  }
+]

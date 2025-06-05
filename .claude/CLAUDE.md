@@ -1,0 +1,13 @@
+- For documenttion on python MCP servers or clients use https://github.com/modelcontextprotocol/python-sdk/tree/main and particularly examples in 'examples' directory there
+- always use uv for managing python projects and dependencies. All deps should be stored in pyproject.toml, NOT in requirements.txt. Use uv to run all python-related commands. Always use venv
+
+- MCP docs: https://github.com/modelcontextprotocol/python-sdk
+- MCP examples: https://github.com/modelcontextprotocol/python-sdk/tree/main/examples
+- A2A docs: https://google.github.io/A2A/
+- A2A examples: https://github.com/google/A2A/blob/main/samples/python
+- OpenAI-agents docs: https://openai.github.io/openai-agents-python/
+- Openai-agents examples: https://github.com/openai/openai-agents-python/tree/main/examples
+- Solana docs: use solana MCP like that:
+    - "Solana Expert: Ask For Help": Use this tool to ask detailed questions about Solana (how-to, concepts, APIs, SDKs, errors). Provide as much context as possible when using it.
+    - "Solana Documentation Search": Use this tool to search the Solana documentation corpus for relevant information based on a query.
+    - "Ask Solana Anchor Framework Expert": Use this tool for any questions specific to the Anchor Framework, including its APIs, SDKs, and error handling.

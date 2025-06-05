@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "content": "Modify TickTickClient to optionally save tokens to memory instead of .env file",
+    "status": "completed",
+    "priority": "high"
+  },
+  {
+    "id": "2",
+    "content": "Update initialize_client to check environment variables first before .env file",
+    "status": "completed",
+    "priority": "high"
+  },
+  {
+    "id": "3",
+    "content": "Update Dockerfile to accept environment variables",
+    "status": "completed",
+    "priority": "medium"
+  },
+  {
+    "id": "4",
+    "content": "Update README with environment variable usage instructions",
+    "status": "completed",
+    "priority": "medium"
+  },
+  {
+    "id": "5",
+    "content": "Update docker-compose.yml to include environment variable example",
+    "status": "completed",
+    "priority": "medium"
+  }
+]

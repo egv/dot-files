@@ -1,0 +1,14 @@
+[
+  {
+    "id": "1",
+    "content": "Completely remove SSE_AVAILABLE variable from server.py",
+    "status": "completed",
+    "priority": "high"
+  },
+  {
+    "id": "2",
+    "content": "Remove code that checks SSE_AVAILABLE before running the server with SSE transport",
+    "status": "completed",
+    "priority": "high"
+  }
+]

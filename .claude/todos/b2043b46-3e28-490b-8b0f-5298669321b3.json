@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "content": "Investigate the mcp library's transport module structure",
+    "status": "completed",
+    "priority": "high"
+  },
+  {
+    "id": "2",
+    "content": "Fix the SSE transport availability check in server.py",
+    "status": "in_progress",
+    "priority": "high"
+  },
+  {
+    "id": "3",
+    "content": "Update the SSE transport implementation",
+    "status": "pending",
+    "priority": "high"
+  },
+  {
+    "id": "4",
+    "content": "Commit and push the changes",
+    "status": "pending",
+    "priority": "high"
+  },
+  {
+    "id": "5",
+    "content": "Update PR #9 with the fix",
+    "status": "pending",
+    "priority": "high"
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "content": "Create README.md for Ethereum development in examples/counter/ethereum/",
+    "status": "completed",
+    "priority": "high",
+    "id": "1"
+  },
+  {
+    "content": "Create README.md for Solana development in examples/counter/solana/",
+    "status": "completed",
+    "priority": "high",
+    "id": "2"
+  },
+  {
+    "content": "Create README.md for TON development in examples/counter/ton/",
+    "status": "completed",
+    "priority": "high",
+    "id": "3"
+  },
+  {
+    "content": "Create README.md for Ethereum development in examples/hello-world/ethereum/",
+    "status": "completed",
+    "priority": "high",
+    "id": "4"
+  },
+  {
+    "content": "Create README.md for Solana development in examples/hello-world/solana/",
+    "status": "completed",
+    "priority": "high",
+    "id": "5"
+  },
+  {
+    "content": "Create README.md for TON development in examples/hello-world/ton/",
+    "status": "completed",
+    "priority": "high",
+    "id": "6"
+  },
+  {
+    "content": "Create README.md for Ethereum development in examples/nft-minting/ethereum/",
+    "status": "completed",
+    "priority": "high",
+    "id": "7"
+  },
+  {
+    "content": "Create README.md for Solana development in examples/nft-minting/solana/",
+    "status": "completed",
+    "priority": "high",
+    "id": "8"
+  },
+  {
+    "content": "Create README.md for TON development in examples/nft-minting/ton/",
+    "status": "completed",
+    "priority": "high",
+    "id": "9"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "content": "Fix missing imports (AsyncYCloudML, Path, HybridSearchIndexType, VectorSearchIndexType, ReciprocalRankFusionIndexCombinationStrategy)",
+    "status": "completed",
+    "priority": "high",
+    "id": "1"
+  },
+  {
+    "content": "Fix undefined variables (mypath, md_fileh)",
+    "status": "completed",
+    "priority": "high",
+    "id": "2"
+  },
+  {
+    "content": "Make the main function async since using AsyncYCloudML",
+    "status": "completed",
+    "priority": "high",
+    "id": "3"
+  },
+  {
+    "content": "Test the fixed script",
+    "status": "completed",
+    "priority": "medium",
+    "id": "4"
+  }
+]

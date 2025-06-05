@@ -1,0 +1,62 @@
+[
+  {
+    "id": "1",
+    "content": "Add detailed JSON logging for webhook payload",
+    "status": "completed",
+    "priority": "high"
+  },
+  {
+    "id": "2",
+    "content": "Review current orchestration.py implementation",
+    "status": "completed",
+    "priority": "high"
+  },
+  {
+    "id": "3",
+    "content": "Update orchestration.py to use SSE MCP",
+    "status": "completed",
+    "priority": "high"
+  },
+  {
+    "id": "6",
+    "content": "Add Traefik reverse proxy with SSL to docker-compose",
+    "status": "completed",
+    "priority": "high"
+  },
+  {
+    "id": "9",
+    "content": "Add EMAIL and WEBHOOK_DOMAIN to .env file",
+    "status": "completed",
+    "priority": "high"
+  },
+  {
+    "id": "10",
+    "content": "Configure docker-compose to use mounted .env file",
+    "status": "completed",
+    "priority": "high"
+  },
+  {
+    "id": "4",
+    "content": "Update Celery task to support async processing",
+    "status": "completed",
+    "priority": "medium"
+  },
+  {
+    "id": "5",
+    "content": "Fix type errors and ensure mypy passes",
+    "status": "completed",
+    "priority": "medium"
+  },
+  {
+    "id": "8",
+    "content": "Update start.sh script with new docker-compose setup",
+    "status": "completed",
+    "priority": "medium"
+  },
+  {
+    "id": "7",
+    "content": "Test MCP implementation with TickTick server",
+    "status": "pending",
+    "priority": "medium"
+  }
+]
