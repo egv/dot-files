@@ -1,4 +1,5 @@
 require("egv.remap")
+require("egv.lsp")
 
 vim.wo.number = true
 vim.wo.relativenumber = true
