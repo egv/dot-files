@@ -1,0 +1,97 @@
+[general]
+live_config_reload = true
+
+[terminal.shell]
+program = "/bin/zsh"
+args = ["-l"]
+
+[window]
+opacity = 0.95
+decorations = "Full"
+
+[window.padding]
+x = 10
+y = 10
+
+[font]
+size = 16.0
+
+[font.normal]
+family = "JetBrainsMono Nerd Font"
+style = "Regular"
+
+[font.bold]
+family = "JetBrainsMono Nerd Font"
+style = "Bold"
+
+[font.italic]
+family = "JetBrainsMono Nerd Font"
+style = "Italic"
+
+[cursor]
+style = { shape = "Block", blinking = "On" }
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+[colors.primary]
+background = "#1e1e2e"
+foreground = "#cdd6f4"
+
+[colors.cursor]
+text = "#1e1e2e"
+cursor = "#f5e0dc"
+
+[colors.vi_mode_cursor]
+text = "#1e1e2e"
+cursor = "#b4befe"
+
+[colors.search.matches]
+foreground = "#1e1e2e"
+background = "#a6e3a1"
+
+[colors.search.focused_match]
+foreground = "#1e1e2e"
+background = "#a6adc8"
+
+[colors.footer_bar]
+background = "#181825"
+foreground = "#cdd6f4"
+
+[colors.hints.start]
+foreground = "#1e1e2e"
+background = "#f9e2af"
+
+[colors.hints.end]
+foreground = "#1e1e2e"
+background = "#a6e3a1"
+
+[colors.selection]
+text = "#1e1e2e"
+background = "#f5e0dc"
+
+[colors.normal]
+black   = "#45475a"
+red     = "#f38ba8"
+green   = "#a6e3a1"
+yellow  = "#f9e2af"
+blue    = "#89b4fa"
+magenta = "#f5c2e7"
+cyan    = "#94e2d5"
+white   = "#bac2de"
+
+[colors.bright]
+black   = "#585b70"
+red     = "#f38ba8"
+green   = "#a6e3a1"
+yellow  = "#f9e2af"
+blue    = "#89b4fa"
+magenta = "#f5c2e7"
+cyan    = "#94e2d5"
+white   = "#a6adc8"
+
+[[keyboard.bindings]]
+key = "Return"
+mods = "Shift"
+chars = "\u001b\r"
