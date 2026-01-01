@@ -1,97 +1,57 @@
-[general]
-live_config_reload = true
+# ---------- Theme import (Tokyonight) ----------
+# Pick ONE import (uncomment exactly one). Night is active by default.
+general.import = [
+  "~/.config/alacritty/themes/tokyonight-night.toml",
+  # "~/.config/alacritty/themes/tokyonight-storm.toml",
+  # "~/.config/alacritty/themes/tokyonight-moon.toml",
+  # "~/.config/alacritty/themes/tokyonight-day.toml",
+]
 
-[terminal.shell]
-program = "/bin/zsh"
-args = ["-l"]
-
-[window]
-opacity = 0.95
-decorations = "Full"
-
-[window.padding]
-x = 10
-y = 10
-
+# ---------- Font ----------
 [font]
-size = 16.0
+size = 14.0
+normal      = { family = "JetBrainsMono Nerd Font", style = "Regular" }
+bold        = { family = "JetBrainsMono Nerd Font", style = "Bold" }
+italic      = { family = "JetBrainsMono Nerd Font", style = "Italic" }
+bold_italic = { family = "JetBrainsMono Nerd Font", style = "Bold Italic" }
 
-[font.normal]
-family = "JetBrainsMono Nerd Font"
-style = "Regular"
+# If icons still render as boxes, try one of these exact names instead:
+# normal = { family = "JetBrainsMono Nerd Font Mono", style = "Regular" }
+# normal = { family = "JetBrains Mono Nerd Font",     style = "Regular" }
 
-[font.bold]
-family = "JetBrainsMono Nerd Font"
-style = "Bold"
+# ---------- Launch zellij on startup ----------
+#[shell]
+#program = "/opt/homebrew/bin/zellij"
+#args = []
 
-[font.italic]
-family = "JetBrainsMono Nerd Font"
-style = "Italic"
+# ---------- macOS tweaks ----------
+[keyboard]
+bindings = []
 
-[cursor]
-style = { shape = "Block", blinking = "On" }
+[env]
+TERM = "xterm-256color"
+LANG = "en_US.UTF-8"
+LC_ALL = "en_US.UTF-8"
 
+# ---------- Scrolling ----------
 [scrolling]
 history = 10000
 multiplier = 3
 
-[colors.primary]
-background = "#1e1e2e"
-foreground = "#cdd6f4"
+# ---------- Window ----------
+[window]
+padding = { x = 6, y = 6 }
+dynamic_padding = true
+opacity = 1.0
+decorations = "Full"
+title = "Alacritty"
+option_as_alt = "Both"
 
-[colors.cursor]
-text = "#1e1e2e"
-cursor = "#f5e0dc"
+# ---------- Cursor ----------
+[cursor]
+style = { shape = "Block", blinking = "On" }
+unfocused_hollow = false
 
-[colors.vi_mode_cursor]
-text = "#1e1e2e"
-cursor = "#b4befe"
-
-[colors.search.matches]
-foreground = "#1e1e2e"
-background = "#a6e3a1"
-
-[colors.search.focused_match]
-foreground = "#1e1e2e"
-background = "#a6adc8"
-
-[colors.footer_bar]
-background = "#181825"
-foreground = "#cdd6f4"
-
-[colors.hints.start]
-foreground = "#1e1e2e"
-background = "#f9e2af"
-
-[colors.hints.end]
-foreground = "#1e1e2e"
-background = "#a6e3a1"
-
-[colors.selection]
-text = "#1e1e2e"
-background = "#f5e0dc"
-
-[colors.normal]
-black   = "#45475a"
-red     = "#f38ba8"
-green   = "#a6e3a1"
-yellow  = "#f9e2af"
-blue    = "#89b4fa"
-magenta = "#f5c2e7"
-cyan    = "#94e2d5"
-white   = "#bac2de"
-
-[colors.bright]
-black   = "#585b70"
-red     = "#f38ba8"
-green   = "#a6e3a1"
-yellow  = "#f9e2af"
-blue    = "#89b4fa"
-magenta = "#f5c2e7"
-cyan    = "#94e2d5"
-white   = "#a6adc8"
-
-[[keyboard.bindings]]
-key = "Return"
-mods = "Shift"
-chars = "\u001b\r"
+# ---------- Mouse ----------
+[mouse]
+hide_when_typing = true
