@@ -35,8 +35,26 @@
 ;; There are two ways to load a theme. Both assume the theme is installed and
 ;; available. You can either set `doom-theme' or manually load a theme with the
 ;; `load-theme' function. This is the default:
-(setq catppuccin-flavor 'macchiato)
-(setq doom-theme 'catppuccin)
+;;(setq catppuccin-flavor 'macchiato)
+
+;; Terminal Emacs: do not paint backgrounds, trust terminal palette
+(when (not (display-graphic-p))
+  ;; Main background
+  (set-face-attribute 'default nil :background "unspecified-bg")
+
+  ;; Remove Doom UI background blocks
+  (dolist (face '(fringe
+                  mode-line
+                  mode-line-inactive
+                  header-line
+                  vertical-border
+                  region))
+    (set-face-attribute face nil :background "unspecified-bg" :box nil))
+  (setq term-file-aliases nil)
+  (setq frame-background-mode 'dark))
+
+(setq doom-sync-enable nil)
+(setq doom-theme 'doom-one)
 
 ;; This determines the style of line numbers in effect. If set to `nil', line
 ;; numbers are disabled. For relative line numbers, set this to `relative'.
