@@ -120,6 +120,22 @@
   (sis-global-context-mode t)
   (sis-global-cursor-color-mode t))
 
+;; TRAMP: remote editing over ssh, hosts come from ~/.ssh/config.
+;; The zshrc on bezalel/oholiab carries a TERM=dumb guard for the handshake.
+(after! tramp
+  (setq tramp-use-connection-share t
+        ;; no lockfiles on remotes, keep autosaves on the local disk
+        remote-file-name-inhibit-locks t
+        tramp-auto-save-directory (concat doom-cache-dir "tramp-autosave/")
+        ;; don't let vc crawl remote repos over TRAMP — big dired speedup
+        vc-ignore-dir-regexp (format "%s\\|%s" vc-ignore-dir-regexp tramp-file-name-regexp)))
+
+(map! :leader
+      (:prefix-map ("r" . "remote")
+       :desc "Dired: bezalel" "b" (cmd! (dired "/ssh:bezalel:~/"))
+       :desc "Dired: oholiab" "o" (cmd! (dired "/ssh:oholiab:~/"))
+       :desc "Dired: codenv"  "c" (cmd! (dired "/ssh:codenv:~/"))))
+
 (use-package! inheritenv
   :defer t)
 (use-package! websocket
