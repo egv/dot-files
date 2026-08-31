@@ -54,6 +54,7 @@
 ;; (unpin! t)
 (package! catppuccin-theme)
 (package! reverse-im)
+(package! sis)
 (package! websocket)
 (package! inheritenv
   :recipe (:host github :repo "purcell/inheritenv"))

@@ -107,6 +107,19 @@
   :config
   (reverse-im-activate "russian-computer"))
 
+;; Sync the macOS input source with evil state via the `macism' CLI:
+;; normal/motion state, prefixes and minibuffer force US, insert state
+;; restores the per-buffer layout (or guesses it from surrounding text).
+(use-package! sis
+  :when (featurep :system 'macos)
+  :config
+  (sis-ism-lazyman-config
+   "com.apple.keylayout.US"
+   "com.apple.keylayout.RussianWin")
+  (sis-global-respect-mode t)
+  (sis-global-context-mode t)
+  (sis-global-cursor-color-mode t))
+
 (use-package! inheritenv
   :defer t)
 (use-package! websocket
